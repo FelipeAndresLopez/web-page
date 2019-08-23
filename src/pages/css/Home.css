@@ -1,0 +1,41 @@
+.img-circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.img-circle:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
+.img-circle img {
+  width: auto;
+  height: 155%;
+  margin-top: -60px;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--dark-blue-gray-3);
+  margin: 5px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.icons-container a {
+  margin: 10px;
+}

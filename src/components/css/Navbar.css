@@ -1,0 +1,37 @@
+nav {
+  padding: 20px;
+  background-color: var(--dark-blue-3);
+  display: flex;
+  height: 32px;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--dark-blue-gray-3);
+  text-decoration: none;
+}
+
+nav li a.active {
+  color: var(--light-blue-3);
+}
+
+nav li a:hover {
+  color: var(--light-blue-3);
+}
