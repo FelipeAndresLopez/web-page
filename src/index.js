@@ -5,6 +5,7 @@ import App from "./components/App";
 
 import "normalize.css";
 import "./css/global.css";
+import "./css/media-query.css";
 import "./css/flexboxgrid.css";
 
 const container = document.getElementById("app");

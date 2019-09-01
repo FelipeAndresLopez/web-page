@@ -15,7 +15,7 @@ class Home extends React.Component {
             <div className="main-content">
               <div className="row">
                 <div className="col-xs-12">
-                  <div className="img-circle">
+                  <div className="photo-circle">
                     <img src={foto} alt="Felipe López - Foto" />
                   </div>
                 </div>
@@ -39,28 +39,25 @@ class Home extends React.Component {
                     <a
                       href="https://www.linkedin.com/in/felipe-andres-lopez"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <div className="icon-circle">
-                        <img src={linkedInIcon} alt="linkedin-icon" />
-                      </div>
+                      <img src={linkedInIcon} alt="linkedin-icon" />
                     </a>
 
                     <a
-                      href="https://www.linkedin.com/in/felipe-andres-lopez"
+                      href="https://github.com/FelipeAndresLopez"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <div className="icon-circle">
-                        <img src={githubIcon} alt="github-icon" />
-                      </div>
+                      <img src={githubIcon} alt="github-icon" />
                     </a>
 
                     <a
-                      href="https://www.linkedin.com/in/felipe-andres-lopez"
+                      href="https://www.facebook.com/FelipeLopez0991"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <div className="icon-circle">
-                        <img src={facebookIcon} alt="facebook-icon" />
-                      </div>
+                      <img src={facebookIcon} alt="facebook-icon" />
                     </a>
                   </div>
                 </div>
