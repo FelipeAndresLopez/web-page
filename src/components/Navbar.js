@@ -4,14 +4,6 @@ import { NavLink } from "react-router-dom";
 import "./css/Navbar.css";
 
 class Navbar extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      show: false
-    };
-  }
-
   hideMenu = () => {
     const menuBtn = document.getElementById("menu-btn");
     if (menuBtn.checked === true) {

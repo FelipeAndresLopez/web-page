@@ -8,6 +8,8 @@
 :root {
   --white: white;
   --black: black;
+  --normal-blue: #1d91c7;
+  --light-green: #15d4a9;
 
   --dark-blue-4: #002a3db3;
   --dark-blue-3: #002a3d;
@@ -21,13 +23,12 @@
   --dark-blue-gray-3: #366377;
   --dark-blue-gray-2: #5d8ba0;
   --dark-blue-gray-1: #80b0c6;
-
-  --normal-blue: #1d91c7;
 }
 
 body,
 html {
   height: 100%;
+  font-family: "Raleway", "Roboto";
 }
 
 .bkg-img {
@@ -55,6 +56,7 @@ html {
   min-height: 100%;
   width: 100%;
   position: fixed;
+  overflow: auto;
 }
 
 .main-content {
@@ -73,6 +75,23 @@ h1 {
 
 h1 span {
   color: var(--normal-blue);
+}
+
+h2 {
+  font-family: raleway;
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--white);
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+h2 span {
+  color: var(--dark-blue-gray-1);
+}
+
+.h2-cnt {
+  padding-top: 2%;
 }
 
 h4 {

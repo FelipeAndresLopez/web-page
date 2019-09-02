@@ -1,0 +1,27 @@
+.skill-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
+
+.skill-container label {
+  font-family: "Roboto";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.skill-container .skill-name {
+  text-align: right;
+}
+
+.progressbar-border {
+  height: 10px;
+  border: 1px solid var(--light-green);
+}
+
+.progressbar-fill {
+  background-color: var(--light-green);
+  height: 10px;
+}
