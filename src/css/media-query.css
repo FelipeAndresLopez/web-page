@@ -60,6 +60,11 @@
   h1 {
     font-size: 40px;
   }
+
+  h2 {
+    font-size: 32px;
+  }
+
   .photo-circle {
     width: 150px;
     height: 150px;
@@ -175,5 +180,39 @@
   header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
   header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
+  }
+
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .event-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .event-container::before {
+    left: 60px;
+    border: medium solid transparent;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent transparent transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 20px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+  .left {
+    text-align: left;
   }
 }

@@ -7,6 +7,7 @@
 /* -------------------- Variables */
 :root {
   --white: white;
+  --gray: #b1b1b1;
   --black: black;
   --normal-blue: #1d91c7;
   --light-green: #15d4a9;
@@ -46,6 +47,22 @@ html {
   background-image: url("../pages/images/bkg-2.jpg");
 }
 
+.bkg-3 {
+  background-image: url("../pages/images/bkg-3.jpg");
+}
+
+.bkg-4 {
+  background-image: url("../pages/images/bkg-4.jpg");
+}
+
+.bkg-5 {
+  background-image: url("../pages/images/bkg-5.jpg");
+}
+
+.bkg-6 {
+  background-image: url("../pages/images/bkg-6.jpg");
+}
+
 .bkg-rec {
   z-index: 2;
   background-color: var(--dark-blue-4);
@@ -60,38 +77,41 @@ html {
 }
 
 .main-content {
-  margin-top: 72px;
+  margin-top: 104px;
   padding: 0 5%;
 }
 
-h1 {
-  font-family: raleway;
-  font-weight: 600;
-  font-size: 56px;
-  color: var(--white);
-  text-transform: uppercase;
-  margin: 0 auto;
-}
-
-h1 span {
-  color: var(--normal-blue);
-}
-
+h1,
 h2 {
   font-family: raleway;
   font-weight: 600;
-  font-size: 40px;
   color: var(--white);
   text-transform: uppercase;
   margin: 0 auto;
 }
 
-h2 span {
+h1 {
+  font-size: 56px;
+}
+
+span.marks {
+  color: var(--normal-blue);
+}
+span.text {
   color: var(--dark-blue-gray-1);
 }
 
-.h2-cnt {
-  padding-top: 2%;
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+  color: var(--gray);
+  font-family: raleway;
+  font-style: italic;
+  font-weight: 500;
+  margin: 20px auto;
 }
 
 h4 {
@@ -99,10 +119,28 @@ h4 {
   font-weight: 200;
   font-size: 24px;
   color: var(--white);
-  text-transform: unset;
   margin: 0 auto;
+}
+
+h5,
+h6 {
+  font-family: roboto;
+}
+
+h5 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: var(--light-blue-3);
 }
 
 .align-center {
   text-align: center;
+}
+
+p {
+  font-family: roboto;
+}
+
+p.job-title {
+  color: var(--white);
 }

@@ -15,6 +15,18 @@ class Skills extends React.Component {
         { id: "7", name: "Git", percent: "50" },
         { id: "8", name: "Scrum", percent: "80" },
         { id: "9", name: "Google Apis", percent: "60" }
+      ],
+      desSkills: [
+        { id: "1", name: "Adobe Xd", percent: "60" },
+        { id: "2", name: "Photoshop", percent: "30" },
+        { id: "3", name: "Illustrator", percent: "30" }
+      ],
+      softSkills: [
+        { id: "1", name: "Teamwork", percent: "80" },
+        { id: "2", name: "Leadership", percent: "80" },
+        { id: "3", name: "Commitment", percent: "100" },
+        { id: "4", name: "Communication", percent: "80" },
+        { id: "5", name: "Empathy", percent: "100" }
       ]
     };
   }
@@ -27,31 +39,95 @@ class Skills extends React.Component {
             <div className="main-content">
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <div className="h2-cnt">
-                    <h2>
-                      <span>Development</span> skills
-                    </h2>
-                  </div>
+                  <h1>
+                    <span className="text">Development</span> skills
+                  </h1>
                 </div>
               </div>
-              <div className="row">
+              <div className="row skills-container">
                 <div className="col-xs-12 center-xs">
                   {this.state.devSkills.map(skill => {
                     return (
                       <div className="row skill-container" key={skill.id}>
-                        <div className="col-xs-2 end-xs">
+                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
                           <label className="skill-name">{skill.name}</label>
                         </div>
-                        <div className="col-xs-8">
+                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
                           <div className="progressbar-border">
                             <div
-                              className="progressbar-fill"
-                              style={{ width: `${skill.percent}%` }}
+                              className={`progressbar-fill filling-${skill.percent}`}
                             ></div>
                           </div>
                         </div>
 
-                        <div className="col-xs-2 start-xs">
+                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
+                          <label className="skill-percent">
+                            {skill.percent}%
+                          </label>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 center-xs">
+                  <h1>
+                    <span className="text">Design</span> skills
+                  </h1>
+                </div>
+              </div>
+              <div className="row skills-container">
+                <div className="col-xs-12 center-xs">
+                  {this.state.desSkills.map(skill => {
+                    return (
+                      <div className="row skill-container" key={skill.id}>
+                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
+                          <label className="skill-name">{skill.name}</label>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
+                          <div className="progressbar-border">
+                            <div
+                              className={`progressbar-fill filling-${skill.percent}`}
+                            ></div>
+                          </div>
+                        </div>
+
+                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
+                          <label className="skill-percent">
+                            {skill.percent}%
+                          </label>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 center-xs">
+                  <h1>
+                    <span className="text">Soft</span> skills
+                  </h1>
+                </div>
+              </div>
+              <div className="row skills-container">
+                <div className="col-xs-12 center-xs">
+                  {this.state.softSkills.map(skill => {
+                    return (
+                      <div className="row skill-container" key={skill.id}>
+                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
+                          <label className="skill-name">{skill.name}</label>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
+                          <div className="progressbar-border">
+                            <div
+                              className={`progressbar-fill filling-${skill.percent}`}
+                            ></div>
+                          </div>
+                        </div>
+
+                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
                           <label className="skill-percent">
                             {skill.percent}%
                           </label>

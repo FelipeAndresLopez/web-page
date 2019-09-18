@@ -24,10 +24,10 @@ class Home extends React.Component {
               <div className="row">
                 <div className="col-xs-12 center-xs">
                   <h1>
-                    I<span>'</span>m
+                    I<span className="marks">'</span>m
                   </h1>
                   <h1>
-                    Felipe López<span>.</span>
+                    Felipe López<span className="marks">.</span>
                   </h1>
                   <h4 className="align-center">Full stack web developer</h4>
                 </div>

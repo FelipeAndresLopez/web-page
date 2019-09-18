@@ -1,6 +1,9 @@
+.skills-container {
+  margin-bottom: 32px;
+}
+
 .skill-container {
   display: flex;
-  width: 100%;
   padding: 20px;
   align-items: center;
 }
@@ -10,6 +13,7 @@
   font-size: 16px;
   text-transform: uppercase;
   color: var(--white);
+  font-weight: 100;
 }
 
 .skill-container .skill-name {
@@ -24,4 +28,110 @@
 .progressbar-fill {
   background-color: var(--light-green);
   height: 10px;
+  width: 0%;
+}
+
+.filling-30 {
+  animation: filling-30 3s ease-out;
+  width: 30%;
+}
+
+.filling-40 {
+  animation: filling-40 3s ease-out;
+  width: 40%;
+}
+
+.filling-50 {
+  animation: filling-50 3s ease-out;
+  width: 50%;
+}
+
+.filling-60 {
+  animation: filling-60 3s ease-out;
+  width: 60%;
+}
+
+.filling-70 {
+  animation: filling-70 3s ease-out;
+  width: 70%;
+}
+
+.filling-80 {
+  animation: filling-80 3s ease-out;
+  width: 80%;
+}
+
+.filling-90 {
+  animation: filling-90 3s ease-out;
+  width: 90%;
+}
+.filling-100 {
+  animation: filling-100 3s ease-out;
+  width: 100%;
+}
+
+@keyframes filling-30 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes filling-40 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes filling-50 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes filling-60 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes filling-70 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes filling-80 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes filling-90 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes filling-100 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
