@@ -1,5 +1,7 @@
 import React from "react";
 
+import Timeline from "../components/Timeline.js";
+
 class Education extends React.Component {
   constructor(props) {
     super(props);
@@ -77,17 +79,14 @@ class Education extends React.Component {
                   <div className="timeline">
                     {this.state.titles.map(title => {
                       return (
-                        <div
-                          className={`event-container ${title.align}`}
+                        <Timeline
                           key={title.id}
-                        >
-                          <div className="content">
-                            <h5>{title.date}</h5>
-                            <h4>{title.company}</h4>
-                            <p className="job-title">{title.title}</p>
-                            <p>{title.description}</p>
-                          </div>
-                        </div>
+                          align={title.align}
+                          date={title.date}
+                          company={title.company}
+                          title={title.title}
+                          description={title.description}
+                        ></Timeline>
                       );
                     })}
                   </div>

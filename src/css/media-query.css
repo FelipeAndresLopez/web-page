@@ -36,9 +36,6 @@
   */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  h1 {
-    font-size: 40px;
-  }
   .photo-circle {
     width: 150px;
     height: 150px;
@@ -49,6 +46,10 @@
   .photo-circle img {
     margin-top: -32px;
   }
+
+  header nav li {
+    padding: 12px;
+  }
 }
 
 /* 
@@ -57,14 +58,6 @@
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
   .photo-circle {
     width: 150px;
     height: 150px;
@@ -83,9 +76,28 @@
   */
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
   header {
     background-color: transparent;
-    align-items: flex-end;
+  }
+
+  .main-content {
+    margin-top: 72px;
+  }
+
+  .event-container .content {
+    padding: 0;
   }
 
   /* mobile menu */
@@ -105,6 +117,7 @@
     display: block;
     margin: 0;
     padding: 0;
+    visibility: hidden;
   }
 
   header nav ul {
@@ -163,6 +176,8 @@
 
   header .menu-btn:checked ~ .menu {
     opacity: 1;
+    visibility: inherit;
+    overflow: auto;
   }
 
   header .menu-btn:checked ~ .menu-icon .navicon {
@@ -214,5 +229,13 @@
   }
   .left {
     text-align: left;
+  }
+
+  .modal-content {
+    width: 100%;
+  }
+
+  .react-tabs__tab {
+    font-size: 24px;
   }
 }

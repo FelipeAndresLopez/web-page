@@ -1,5 +1,6 @@
 import React from "react";
-import "./css/Skills.css";
+
+import Skillbar from "../components/Skillbar.js";
 
 class Skills extends React.Component {
   constructor(props) {
@@ -48,24 +49,11 @@ class Skills extends React.Component {
                 <div className="col-xs-12 center-xs">
                   {this.state.devSkills.map(skill => {
                     return (
-                      <div className="row skill-container" key={skill.id}>
-                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
-                          <label className="skill-name">{skill.name}</label>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
-                          <div className="progressbar-border">
-                            <div
-                              className={`progressbar-fill filling-${skill.percent}`}
-                            ></div>
-                          </div>
-                        </div>
-
-                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
-                          <label className="skill-percent">
-                            {skill.percent}%
-                          </label>
-                        </div>
-                      </div>
+                      <Skillbar
+                        key={skill.id}
+                        name={skill.name}
+                        percent={skill.percent}
+                      ></Skillbar>
                     );
                   })}
                 </div>
@@ -82,24 +70,11 @@ class Skills extends React.Component {
                 <div className="col-xs-12 center-xs">
                   {this.state.desSkills.map(skill => {
                     return (
-                      <div className="row skill-container" key={skill.id}>
-                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
-                          <label className="skill-name">{skill.name}</label>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
-                          <div className="progressbar-border">
-                            <div
-                              className={`progressbar-fill filling-${skill.percent}`}
-                            ></div>
-                          </div>
-                        </div>
-
-                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
-                          <label className="skill-percent">
-                            {skill.percent}%
-                          </label>
-                        </div>
-                      </div>
+                      <Skillbar
+                        key={skill.id}
+                        name={skill.name}
+                        percent={skill.percent}
+                      ></Skillbar>
                     );
                   })}
                 </div>
@@ -115,24 +90,11 @@ class Skills extends React.Component {
                 <div className="col-xs-12 center-xs">
                   {this.state.softSkills.map(skill => {
                     return (
-                      <div className="row skill-container" key={skill.id}>
-                        <div className="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-12 col-xs-12 start-sm start-xs end-lg end-md">
-                          <label className="skill-name">{skill.name}</label>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-11 col-xs-10">
-                          <div className="progressbar-border">
-                            <div
-                              className={`progressbar-fill filling-${skill.percent}`}
-                            ></div>
-                          </div>
-                        </div>
-
-                        <div className="col-lg-1 col-md-1 col-sm-1 col-xs-2 start-lg start-md center-xs ">
-                          <label className="skill-percent">
-                            {skill.percent}%
-                          </label>
-                        </div>
-                      </div>
+                      <Skillbar
+                        key={skill.id}
+                        name={skill.name}
+                        percent={skill.percent}
+                      ></Skillbar>
                     );
                   })}
                 </div>

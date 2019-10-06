@@ -1,6 +1,6 @@
 /* -------------------- Fonts */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,300i,400,400i,600&display=swap");
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap");
 
@@ -33,6 +33,7 @@ html {
 }
 
 .bkg-img {
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,27 +41,27 @@ html {
 }
 
 .bkg-1 {
-  background-image: url("../pages/images/bkg-1.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-1.jpg");
 }
 
 .bkg-2 {
-  background-image: url("../pages/images/bkg-2.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-2.jpg");
 }
 
 .bkg-3 {
-  background-image: url("../pages/images/bkg-3.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-3.jpg");
 }
 
 .bkg-4 {
-  background-image: url("../pages/images/bkg-4.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-4.jpg");
 }
 
 .bkg-5 {
-  background-image: url("../pages/images/bkg-5.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-5.jpg");
 }
 
 .bkg-6 {
-  background-image: url("../pages/images/bkg-6.jpg");
+  background-image: url("../pages/images/backgrounds/bkg-6.jpg");
 }
 
 .bkg-rec {
@@ -94,7 +95,7 @@ h1 {
   font-size: 56px;
 }
 
-span.marks {
+.marks {
   color: var(--normal-blue);
 }
 span.text {
@@ -114,9 +115,13 @@ h3 {
   margin: 20px auto;
 }
 
+h3.quotes {
+  font-size: 16px;
+}
+
 h4 {
   font-family: raleway;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   color: var(--white);
   margin: 0 auto;
@@ -131,6 +136,10 @@ h5 {
   margin: 0 0 10px 0;
   font-size: 20px;
   color: var(--light-blue-3);
+}
+
+h6 {
+  color: var(--white);
 }
 
 .align-center {

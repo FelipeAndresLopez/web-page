@@ -2,9 +2,9 @@ import React from "react";
 
 import "./css/Home.css";
 import foto from "./images/felipe-1.jpg";
-import facebookIcon from "./images/facebook-icon.svg";
-import linkedInIcon from "./images/linkedin-icon.svg";
-import githubIcon from "./images/github-icon.svg";
+import facebookIcon from "./images/icons/facebook-icon.svg";
+import linkedInIcon from "./images/icons/linkedin-icon.svg";
+import githubIcon from "./images/icons/github-icon.svg";
 
 class Home extends React.Component {
   render() {
