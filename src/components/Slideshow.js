@@ -65,7 +65,7 @@ class Slideshow extends React.Component {
                       {index + 1} / {this.props.images.length}
                     </div>
                     <img src={image.src} alt={image.src}></img>
-                    <div className="text">{image.alt}</div>
+                    <div className="slide-caption">{image.alt}</div>
                   </div>
                 );
               })}

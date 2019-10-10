@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect, Link } from "react-router-dom";
 import NotFound from "../components/NotFound";
 import Slideshow from "../components/Slideshow";
 
@@ -13,6 +14,12 @@ import philipsAdventure6 from "../pages/images/development/philips-adventure/mis
 import fileManager1 from "../pages/images/development/file-manager/fm-2.png";
 import fileManager2 from "../pages/images/development/file-manager/fm-3.png";
 
+import cocrealab1 from "../pages/images/development/cocrealab/cocrealab-1.png";
+import cocrealab2 from "../pages/images/development/cocrealab/cocrealab-2.png";
+import cocrealab3 from "../pages/images/development/cocrealab/cocrealab-3.png";
+import cocrealab4 from "../pages/images/development/cocrealab/cocrealab-4.png";
+import cocrealab5 from "../pages/images/development/cocrealab/cocrealab-5.png";
+
 class ProjectDetails extends React.Component {
   constructor(props) {
     super(props);
@@ -24,6 +31,8 @@ class ProjectDetails extends React.Component {
   componentDidMount() {
     this.fetchData();
   }
+
+  onNextProject = () => {};
 
   fetchData = () => {
     const projectsData = {
@@ -108,6 +117,57 @@ class ProjectDetails extends React.Component {
             alt: "File Manager - GUI"
           }
         ]
+      },
+      3: {
+        name: "Web application",
+        description:
+          "I contributed in development of a web application for visualizing Colombia's coverage and quality in terms of higher education.",
+        specs: [
+          {
+            id: "1",
+            name:
+              "Programming language: PHP using CodeIgniter (framework based on MVC)"
+          },
+          {
+            id: "2",
+            name: "GUI: Materializecss"
+          },
+          {
+            id: "3",
+            name: "Server: Apache Tomcat"
+          },
+          {
+            id: "4",
+            name: "Database engine: MySQL"
+          }
+        ],
+        images: [
+          {
+            id: "1",
+            src: cocrealab1,
+            alt: "Stats"
+          },
+          {
+            id: "2",
+            src: cocrealab2,
+            alt: "Programs - CRUD"
+          },
+          {
+            id: "3",
+            src: cocrealab3,
+            alt: "Stats"
+          },
+          {
+            id: "4",
+            src: cocrealab4,
+            alt: "Coverage of higher education"
+          },
+          {
+            id: "5",
+            src: cocrealab5,
+            alt: "Admin panel"
+          }
+        ]
       }
     };
     const projectId = this.props.match.params.projectId;
@@ -124,6 +184,9 @@ class ProjectDetails extends React.Component {
             <div className="bkg-rec full-page">
               <div className="main-content">
                 <div className="row">
+                  <Link className="left-arrow" to="/portfolio">
+                    <i></i>
+                  </Link>
                   <div className="col-xs-12 center-xs">
                     <h2>{project.name}</h2>
                   </div>
@@ -152,6 +215,10 @@ class ProjectDetails extends React.Component {
                       })}
                     </ul>
                   </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-xs-12"></div>
                 </div>
               </div>
             </div>

@@ -90,6 +90,9 @@
 
   header {
     background-color: transparent;
+    width: 64px;
+    right: 0;
+    /* height: 50px; */
   }
 
   .main-content {
@@ -134,7 +137,7 @@
 
   header .menu-icon {
     cursor: pointer;
-    padding: 30px;
+    padding: 18px;
     position: relative;
     user-select: none;
     z-index: 4;
@@ -240,5 +243,16 @@
   }
   .slideshow-container {
     max-width: 100%;
+  }
+
+  .left-arrow {
+    top: 18px;
+    left: 13px;
+    position: absolute;
+  }
+
+  .left-arrow i {
+    width: 16px;
+    height: 16px;
   }
 }
