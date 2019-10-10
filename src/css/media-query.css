@@ -238,4 +238,7 @@
   .react-tabs__tab {
     font-size: 24px;
   }
+  .slideshow-container {
+    max-width: 100%;
+  }
 }

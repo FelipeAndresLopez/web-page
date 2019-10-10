@@ -1,11 +1,48 @@
 .design-portfolio-image {
   width: 100%;
-  max-width: 300px;
   cursor: pointer;
   transition: 0.3s;
-  opacity: 0.7;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.design-portfolio-image:hover {
-  opacity: 1;
+.dev-portfolio-container {
+  background-color: var(--dark-blue-4);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.dev-portfolio-image {
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+}
+
+.linkUnstyled {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-weight: 100;
+  color: var(--white);
+}
+
+ul li.blue-bullets::before {
+  content: "\25AA";
+  color: var(--normal-blue);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li.blue-bullets {
+  color: var(--white);
+  font-weight: 100;
 }

@@ -32,7 +32,7 @@ class ModalImage extends React.Component {
           <span className="close" onClick={this.onCloseModal}>
             &times;
           </span>
-          <img className="modal-content" id="image"></img>
+          <img className="modal-content" alt="Imagen modal" id="image"></img>
           <div id="caption"></div>
         </div>
       </React.Fragment>,

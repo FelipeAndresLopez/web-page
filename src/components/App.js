@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ProjectDetails from "../pages/ProjectDetails";
 
 import Home from "../pages/Home";
 import Skills from "../pages/Skills";
@@ -21,6 +22,11 @@ function App() {
           <Route exact path="/experience" component={Experience} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route
+            exact
+            path="/portfolio/:projectId"
+            component={ProjectDetails}
+          />
           <Route exact path="/blog" component={Blog} />
           <Route component={NotFound} />
         </Switch>
