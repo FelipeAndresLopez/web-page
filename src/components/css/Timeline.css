@@ -88,14 +88,14 @@
 }
 
 /* The actual content */
-.content {
+.event-content {
   padding: 15px 30px;
   background-color: transparent;
   position: relative;
   border-radius: 6px;
 }
 
-.content p {
-  color: var(--gray);
+.event-content p {
+  color: var(--white);
   font-weight: 100;
 }

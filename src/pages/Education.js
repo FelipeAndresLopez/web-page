@@ -47,7 +47,7 @@ class Education extends React.Component {
           company: "Escuela Normal Superior",
           title: "High school diploma",
           description:
-            "These kind of schools are focused on training teachers, however I decided be an engineer.",
+            "These kind of schools are focused on training teachers, however I decided to be an engineer.",
           align: "left"
         }
       ]
@@ -67,7 +67,7 @@ class Education extends React.Component {
               </div>
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <h3>
+                  <h3 className="quotes">
                     <span className="marks">"</span>Never Stop Learning
                     <span className="marks">"</span>
                   </h3>

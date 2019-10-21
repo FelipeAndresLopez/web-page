@@ -28,19 +28,19 @@ class Portfolio extends React.Component {
         {
           id: "1",
           src: cocrealab1,
-          alt: "Proyecto Cocrealab 1"
+          alt: "Cocrealab 1"
         },
 
         {
           id: "2",
           src: cocrealab2,
-          alt: "Proyecto Cocrealab 2"
+          alt: "Cocrealab 2"
         },
 
         {
           id: "3",
           src: cocrealab3,
-          alt: "Proyecto Cocrealab 3"
+          alt: "Cocrealab 3"
         }
       ],
       devProjects: [
@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
         {
           id: "2",
           src: fileManager,
-          alt: "Gestor de archivos en Hum-Hub",
+          alt: "File manager on Hum-Hub",
           name: "Web plug-in"
         },
 
@@ -89,7 +89,7 @@ class Portfolio extends React.Component {
               </div>
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <h3 className="quotes">
+                  <h3 className="quotes small-quotes">
                     <span className="marks">"</span>Your work is going to fill a
                     large part of your life, and the only way to be truly
                     satisfied is to do what you believe is great work. And the
@@ -97,7 +97,7 @@ class Portfolio extends React.Component {
                     haven’t found it yet, keep looking and don’t settle.
                     <span className="marks">"</span>
                   </h3>
-                  <h3 className="marks quotes">Steve Jobs</h3>
+                  <h4 className="marks small">Steve Jobs</h4>
                 </div>
               </div>
 

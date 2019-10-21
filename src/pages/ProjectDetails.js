@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import NotFound from "../components/NotFound";
 import Slideshow from "../components/Slideshow";
 
@@ -51,7 +51,7 @@ class ProjectDetails extends React.Component {
           },
           {
             id: "3",
-            name: "UI: Unity Asset Store"
+            name: "GUI: Unity Asset Store"
           }
         ],
         images: [
@@ -205,20 +205,12 @@ class ProjectDetails extends React.Component {
                 <div className="row">
                   <div className="col-xs-12">
                     <h4>SPECS</h4>
-                    <ul>
+                    <ul className="blue-bullets">
                       {project.specs.map(spec => {
-                        return (
-                          <li key={spec.id} className="blue-bullets">
-                            {spec.name}
-                          </li>
-                        );
+                        return <li key={spec.id}>{spec.name}</li>;
                       })}
                     </ul>
                   </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-xs-12"></div>
                 </div>
               </div>
             </div>

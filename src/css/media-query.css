@@ -3,7 +3,22 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 768px) {
+  /* Scroll styles */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-blue-gray-1);
+  }
 }
 
 /* 
@@ -254,5 +269,31 @@
   .left-arrow i {
     width: 16px;
     height: 16px;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .card-content {
+    width: 100%;
+  }
+
+  .card-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content h3 {
+    line-height: 1.5;
+  }
+
+  ul.three-colums {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .error-404 {
+    font-size: 140px;
   }
 }

@@ -9,7 +9,7 @@ class Experience extends React.Component {
       experiences: [
         {
           id: "1",
-          date: "2015 - 2019",
+          date: "nov. 2015 - apr. 2019",
           company: "Sinova",
           title: "Full stack developer",
           description:
@@ -18,16 +18,16 @@ class Experience extends React.Component {
         },
         {
           id: "2",
-          date: "2017",
+          date: "feb. 2017 - aug. 2017",
           company: "Cocrealab",
           title: "Full stack developer",
           description:
-            "Development and design of a web application, for visualizing the higher coverage of education in Colombia, by city and region.",
+            "Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.",
           align: "right"
         },
         {
           id: "3",
-          date: "2015",
+          date: "aug. 2015 - oct. 2015",
           company: "Eforcers",
           title: "Full stack developer",
           description:
@@ -51,7 +51,7 @@ class Experience extends React.Component {
               </div>
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <h3>
+                  <h3 className="quotes">
                     <span className="marks">"</span>Do Your Best Work Ever
                     <span className="marks">"</span>
                   </h3>

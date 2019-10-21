@@ -1,0 +1,22 @@
+.error-404 {
+  font-size: 180px;
+  color: var(--white);
+  font-family: roboto;
+  font-weight: 400;
+}
+
+.error-message {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: var(--normal-blue);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: var(--light-blue-3);
+}

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/Home.css";
-import foto from "./images/felipe-1.jpg";
+import philipPhoto from "./images/home/foto-felipe-1.jpg";
 import facebookIcon from "./images/icons/facebook-icon.svg";
 import linkedInIcon from "./images/icons/linkedin-icon.svg";
 import githubIcon from "./images/icons/github-icon.svg";
@@ -16,7 +16,7 @@ class Home extends React.Component {
               <div className="row">
                 <div className="col-xs-12">
                   <div className="photo-circle">
-                    <img src={foto} alt="Felipe López - Foto" />
+                    <img src={philipPhoto} alt="Felipe López" />
                   </div>
                 </div>
               </div>

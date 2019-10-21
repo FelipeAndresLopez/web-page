@@ -8,6 +8,7 @@
 :root {
   --white: white;
   --gray: #b1b1b1;
+  --dark-gray: #2e2e2e;
   --black: black;
   --normal-blue: #1d91c7;
   --light-green: #15d4a9;
@@ -64,6 +65,9 @@ html {
   background-image: url("../pages/images/backgrounds/bkg-6.jpg");
 }
 
+.bkg-7 {
+  background-image: url("../pages/images/backgrounds/bkg-7.jpg");
+}
 .bkg-rec {
   z-index: 2;
   background-color: var(--dark-blue-4);
@@ -107,16 +111,28 @@ h2 {
 }
 
 h3 {
+  color: var(--white);
   font-size: 40px;
-  color: var(--gray);
   font-family: raleway;
-  font-style: italic;
-  font-weight: 500;
+  text-transform: uppercase;
   margin: 20px auto;
 }
 
 h3.quotes {
+  font-size: 40px;
+  color: var(--gray);
+  font-style: italic;
+  font-weight: 500;
+  text-transform: unset;
+}
+
+h3.small-quotes {
   font-size: 16px;
+  text-transform: unset;
+}
+
+h3.white {
+  color: var(--white);
 }
 
 h4 {
@@ -125,6 +141,10 @@ h4 {
   font-size: 24px;
   color: var(--white);
   margin: 0 auto;
+}
+
+h4.small {
+  font-size: 16px;
 }
 
 h5,
@@ -152,4 +172,5 @@ p {
 
 p.job-title {
   color: var(--white);
+  font-weight: 400;
 }
