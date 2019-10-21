@@ -13,7 +13,7 @@
   --normal-blue: #1d91c7;
   --light-green: #15d4a9;
 
-  --dark-blue-4: #002a3db3;
+  --dark-blue-4: rgba(0, 42, 61, 0.7); /*#002a3db3;*/
   --dark-blue-3: #002a3d;
   --dark-blue-2: #0f4c69;
   --dark-blue-1: #227ea8;
