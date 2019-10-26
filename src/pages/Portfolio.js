@@ -14,7 +14,7 @@ import cocrealab2 from "./images/design/cocrealab-2.jpg";
 import cocrealab3 from "./images/design/cocrealab-3.jpg";
 
 import philipsAdventure from "./images/development/philips-adventure/game-done.jpg";
-import fileManager from "./images/development/file-manager/fm-1.png";
+import fileManager from "./images/development/file-manager/fm-1.jpg";
 import cocrealabApp from "./images/development/cocrealab/cocrealab-0.png";
 
 class Portfolio extends React.Component {
