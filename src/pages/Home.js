@@ -53,7 +53,7 @@ class Home extends React.Component {
                     </a>
 
                     <a
-                      href="https://www.facebook.com/FelipeLopez0991"
+                      href="https://www.facebook.com/felipeandreslopezm"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
