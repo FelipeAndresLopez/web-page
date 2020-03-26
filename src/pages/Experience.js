@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import Timeline from "../components/Timeline.js";
+import Timeline from '../components/Timeline.js';
 
 class Experience extends React.Component {
   constructor(props) {
@@ -8,31 +8,37 @@ class Experience extends React.Component {
     this.state = {
       experiences: [
         {
-          id: "1",
-          date: "nov. 2015 - apr. 2019",
-          company: "Sinova",
-          title: "Full stack developer",
-          description:
-            "Development and design of web applications with Google Apps Script, using Google Services as Gmail, Drive, Sheets and Docs, for automating workflows.",
-          align: "left"
+          id: '0',
+          date: 'dec. 2019 - continue',
+          company: 'TempEdge',
+          title: 'React developer (Remote)',
+          description: 'Development of components for applications using technologies such as React Js, Redux, Css, Html, Bootstrap and API REST.',
+          align: 'right'
         },
         {
-          id: "2",
-          date: "feb. 2017 - aug. 2017",
-          company: "Cocrealab",
-          title: "Full stack developer",
+          id: '1',
+          date: 'nov. 2015 - apr. 2019',
+          company: 'Sinova',
+          title: 'Full stack developer',
           description:
-            "Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.",
-          align: "right"
+            'Development and design of web applications and plugins, using technologies such as Apps Script, Javascript, Css, Html, jQuery, MySQL and Bootstrap; for automating workflows.',
+          align: 'left'
         },
         {
-          id: "3",
-          date: "aug. 2015 - oct. 2015",
-          company: "Eforcers",
-          title: "Full stack developer",
-          description:
-            "Development and deployment of a file manager plug-in for an internal social network of Grupo de Diarios de América.",
-          align: "left"
+          id: '2',
+          date: 'feb. 2017 - aug. 2017',
+          company: 'Cocrealab',
+          title: 'Full stack developer',
+          description: 'Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.',
+          align: 'right'
+        },
+        {
+          id: '3',
+          date: 'aug. 2015 - oct. 2015',
+          company: 'Eforcers',
+          title: 'Full stack developer',
+          description: 'Development and deployment of a file manager plug-in for an internal social network of Grupo de Diarios de América.',
+          align: 'left'
         }
       ]
     };
@@ -61,7 +67,7 @@ class Experience extends React.Component {
               <div className="row">
                 <div className="col-xs-12">
                   <div className="timeline">
-                    {this.state.experiences.map(experience => {
+                    {this.state.experiences.map((experience) => {
                       return (
                         <Timeline
                           key={experience.id}
@@ -69,8 +75,7 @@ class Experience extends React.Component {
                           date={experience.date}
                           company={experience.company}
                           title={experience.title}
-                          description={experience.description}
-                        ></Timeline>
+                          description={experience.description}></Timeline>
                       );
                     })}
                   </div>

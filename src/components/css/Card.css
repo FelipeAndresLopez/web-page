@@ -15,6 +15,7 @@
   width: 60%;
   padding: 10px;
   font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-photo {
