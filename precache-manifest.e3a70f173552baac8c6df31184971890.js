@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c3f1d88f479ef77e1bcecc982f67495",
+    "revision": "594b25b12c731da1bc667d8b09d55ee0",
     "url": "/index.html"
   },
   {
-    "revision": "e044c3669f161303f477",
+    "revision": "db858707d8e2d270b2d2",
     "url": "/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "c1f40ba541fe0c9825ff",
-    "url": "/static/css/main.5407c7c1.chunk.css"
+    "revision": "c078097a20a5d57075a0",
+    "url": "/static/css/main.32d3c57a.chunk.css"
   },
   {
-    "revision": "e044c3669f161303f477",
-    "url": "/static/js/2.3ac062c2.chunk.js"
+    "revision": "db858707d8e2d270b2d2",
+    "url": "/static/js/2.56832b63.chunk.js"
   },
   {
-    "revision": "c1f40ba541fe0c9825ff",
-    "url": "/static/js/main.56b68748.chunk.js"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/static/js/2.56832b63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c79e931e4e1d7d54ae84",
-    "url": "/static/js/runtime~main.93eba3d2.js"
+    "revision": "c078097a20a5d57075a0",
+    "url": "/static/js/main.9cc47cc8.chunk.js"
+  },
+  {
+    "revision": "4c3af0fac440eefa68df",
+    "url": "/static/js/runtime-main.0faa9aa1.js"
+  },
+  {
+    "revision": "6846cdfd740877c567ac9e6ec84fe03f",
+    "url": "/static/media/adobeXd.6846cdfd.png"
   },
   {
     "revision": "079d0735cdc965996e09b1632efe16cd",
@@ -50,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7069a46b343695ab1f70fd4436e6bc82",
     "url": "/static/media/bkg-7.7069a46b.jpg"
+  },
+  {
+    "revision": "2e053eb5e670acf5d186aee229708dfe",
+    "url": "/static/media/buenasPracticas.2e053eb5.png"
+  },
+  {
+    "revision": "c6e54e7e8e6787f80ce379cf7bcd1cba",
+    "url": "/static/media/closuresJs.c6e54e7e.png"
   },
   {
     "revision": "390bfb7b1ccd29c076588a793e2cd77e",
@@ -112,8 +128,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/foto-felipe-2.30335b2e.jpg"
   },
   {
+    "revision": "a323dcaf6891d5ad53e193dde420bc95",
+    "url": "/static/media/frontendDeveloper.a323dcaf.png"
+  },
+  {
+    "revision": "6c6703fa16d37af14be1565c0d0e68a1",
+    "url": "/static/media/fundIngSoft.6c6703fa.png"
+  },
+  {
+    "revision": "9e8359f9d2cbdd2d6076c31c630e178c",
+    "url": "/static/media/fundJs.9e8359f9.png"
+  },
+  {
     "revision": "7e9ab35b681c3f531178ae349f14f10e",
     "url": "/static/media/game-done.7e9ab35b.jpg"
+  },
+  {
+    "revision": "c9654fc878fcf3473d9a004c9732f292",
+    "url": "/static/media/gestionTiempo.c9654fc8.png"
+  },
+  {
+    "revision": "40d4645a9f93beb520117a53bdc3a113",
+    "url": "/static/media/git.40d4645a.png"
   },
   {
     "revision": "37d4630da2db1694451071b920c5fc0f",
@@ -136,8 +172,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hatos-reservoir.07d4029c.jpg"
   },
   {
+    "revision": "74197a216f23a801d11de912de0ad4c9",
+    "url": "/static/media/htmlCss.74197a21.png"
+  },
+  {
+    "revision": "1bae2bf91757444207173f28a308763c",
+    "url": "/static/media/jqueryAJs.1bae2bf9.png"
+  },
+  {
+    "revision": "e24f3376288b10080d350cfe98addc80",
+    "url": "/static/media/jsEngineV8.e24f3376.png"
+  },
+  {
     "revision": "7519f3548a8a1023f6fa638a36402f7b",
     "url": "/static/media/linkedin-icon.7519f354.svg"
+  },
+  {
+    "revision": "3c5fb032b0de00980605ae34ec77e88c",
+    "url": "/static/media/marcaPersonal.3c5fb032.png"
   },
   {
     "revision": "694a5f78d9111fa40cec9d3034070262",
@@ -152,11 +204,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mision-5.cae990cb.jpg"
   },
   {
+    "revision": "72b197ae0b72a321e6034724831f95c6",
+    "url": "/static/media/reactEJs.72b197ae.png"
+  },
+  {
+    "revision": "3454ef39d0cdf8ee0fa8d3e3e1a5af44",
+    "url": "/static/media/reactJs.3454ef39.png"
+  },
+  {
+    "revision": "e4391b60a93c777e6aca44a983e968c2",
+    "url": "/static/media/reactRouterRedux.e4391b60.png"
+  },
+  {
+    "revision": "b9147da962a7cd4d1a4299c714974070",
+    "url": "/static/media/redux.b9147da9.png"
+  },
+  {
     "revision": "fe5b2e7db9e622a82ca00b3f8beac7fb",
     "url": "/static/media/riding-on-bike.fe5b2e7d.jpg"
   },
   {
     "revision": "9bac06c98ea49ac7c094be2bf06d621d",
     "url": "/static/media/rock-music.9bac06c9.jpg"
+  },
+  {
+    "revision": "01394f20b5f78696b97b247c447e1ee0",
+    "url": "/static/media/springHibertanate.01394f20.png"
   }
 ]);
