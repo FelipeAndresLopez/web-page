@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import "./css/ModalImage.css";
+import './css/ModalImage.css';
 
 class ModalImage extends React.Component {
   constructor(props) {
@@ -16,27 +16,27 @@ class ModalImage extends React.Component {
   }
 
   onOpenModal = () => {
-    document.getElementById("modalImage").style.display = "block";
-    document.getElementById("image").src = this.props.imageSrc;
-    document.getElementById("caption").innerHTML = this.props.imageAlt;
+    document.getElementById('modalImage').style.display = 'block';
+    document.getElementById('image').src = this.props.imageSrc;
+    document.getElementById('caption').innerHTML = this.props.imageAlt;
   };
 
   onCloseModal = () => {
-    document.getElementById("modalImage").style.display = "none";
+    document.getElementById('modalImage').style.display = 'none';
   };
 
   render() {
     return ReactDOM.createPortal(
-      <React.Fragment>
+      <>
         <div id="modalImage" className="modal">
-          <span className="close" onClick={this.onCloseModal}>
+          <span type="button" className="close" onClick={this.onCloseModal}>
             &times;
           </span>
-          <img className="modal-content" alt="Imagen modal" id="image"></img>
-          <div id="caption"></div>
+          <img className="modal-content" alt="Imagen modal" id="image" />
+          <div id="caption" />
         </div>
-      </React.Fragment>,
-      document.getElementById("modal-images")
+      </>,
+      document.getElementById('modal-images')
     );
   }
 }

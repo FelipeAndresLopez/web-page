@@ -1,0 +1,12 @@
+
+
+.single-card__container {
+  background-color: var(--dark-blue-4);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.single-card__image {
+  width: 100%;
+  height: auto;
+}

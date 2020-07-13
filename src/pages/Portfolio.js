@@ -1,12 +1,11 @@
 import React from "react";
-
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
 
 import ModalImage from "../components/ModalImage.js";
+import ModalCard from '../components/ModalCard';
 
 import "./css/ReactTabs.css";
-
 import "./css/Portfolio.css";
 
 import cocrealab1 from "./images/design/cocrealab-1.jpg";
@@ -16,6 +15,7 @@ import cocrealab3 from "./images/design/cocrealab-3.jpg";
 import philipsAdventure from "./images/development/philips-adventure/game-done.jpg";
 import fileManager from "./images/development/file-manager/fm-1.jpg";
 import cocrealabApp from "./images/development/cocrealab/cocrealab-0.png";
+import SingleCard from '../components/SingleCard';
 
 class Portfolio extends React.Component {
   constructor(props) {
@@ -121,15 +121,11 @@ class Portfolio extends React.Component {
                                 to={`/portfolio/${devProject.id}`}
                                 className="linkUnstyled"
                               >
-                                <div className="dev-portfolio-container">
-                                  <img
-                                    className="dev-portfolio-image"
-                                    src={devProject.src}
-                                    alt={devProject.alt}
-                                    onClick={this.handleOpenModal}
-                                  ></img>
-                                  <p>{devProject.name}</p>
-                                </div>
+                                <SingleCard
+                                  src={devProject.src}
+                                  alt={devProject.alt}
+                                  caption={devProject.name}
+                                />
                               </Link>
                             </div>
                           );
@@ -142,17 +138,12 @@ class Portfolio extends React.Component {
                       <div className="row">
                         {this.state.desProjects.map(designProject => {
                           return (
-                            <div
+                            <ModalCard
                               key={designProject.id}
-                              className="col-lg-4 col-md-6 col-sm-6 col-xs-12"
-                            >
-                              <img
-                                className="design-portfolio-image"
-                                src={designProject.src}
-                                alt={designProject.alt}
-                                onClick={this.handleOpenModal}
-                              ></img>
-                            </div>
+                              src={designProject.src}
+                              alt={designProject.alt}
+                              onClick={this.handleOpenModal}
+                            />
                           );
                         })}
                       </div>

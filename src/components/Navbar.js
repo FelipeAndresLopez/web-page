@@ -1,17 +1,17 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import "./css/Navbar.css";
+import './css/Navbar.css';
 
 class Navbar extends React.Component {
   hideMenu = () => {
-    const menuBtn = document.getElementById("menu-btn");
+    const menuBtn = document.getElementById('menu-btn');
     if (menuBtn.checked === true) {
       menuBtn.checked = false;
     }
   };
   componentWillUnmount() {
-    document.addEventListener("click", this.hideMenu);
+    document.addEventListener('click', this.hideMenu);
   }
 
   render() {

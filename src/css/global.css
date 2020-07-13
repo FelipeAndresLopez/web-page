@@ -25,6 +25,7 @@
   --dark-blue-gray-3: #366377;
   --dark-blue-gray-2: #5d8ba0;
   --dark-blue-gray-1: #80b0c6;
+  --spacing: 1rem;
 }
 
 body,
@@ -102,6 +103,7 @@ h1 {
 .marks {
   color: var(--normal-blue);
 }
+
 span.text {
   color: var(--dark-blue-gray-1);
 }
@@ -173,4 +175,34 @@ p {
 p.job-title {
   color: var(--white);
   font-weight: 400;
+}
+
+.my-0{
+  margin-top: calc(var(--spacing) * 0);
+  margin-bottom: calc(var(--spacing) * 0);
+}
+
+.my-1{
+  margin-top: calc(var(--spacing) * .25);
+  margin-bottom: calc(var(--spacing) * .25);
+}
+
+.my-2{
+  margin-top: calc(var(--spacing) * .5);
+  margin-bottom: calc(var(--spacing) * .5);
+}
+
+.my-3{
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.my-4{
+  margin-top: calc(var(--spacing) * 1.5);
+  margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+.my-5{
+  margin-top: calc(var(--spacing) * 3);
+  margin-bottom: calc(var(--spacing) * 3);
 }

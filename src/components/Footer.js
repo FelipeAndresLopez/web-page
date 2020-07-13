@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import "./css/Footer.css";
+import './css/Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <footer>
         <ul>
           <li>Facebook</li>
@@ -12,8 +12,8 @@ function Footer() {
           <li>Facebook</li>
         </ul>
       </footer>
-    </React.Fragment>
+    </>
   );
-}
+};
 
 export default Footer;

@@ -1,24 +1,30 @@
-import React from "react";
-import "./css/Card.css";
+import React from 'react';
+import './css/Card.css';
 
-function Card(props) {
+const Card = (props) => {
+  const {
+    photo,
+    caption,
+    alt,
+    children
+  } = props;
   return (
-    <React.Fragment>
+    <>
       <div className="row">
         <div className="col-xs-12">
           <div className="card">
             <div className="card-photo">
-              <img src={props.photo} alt={props.alt} />
+              <img src={photo} alt={alt} />
               <div className="text-block">
-                <p>{props.caption}</p>
+                <p>{caption}</p>
               </div>
             </div>
-            <div className="card-content">{props.children}</div>
+            <div className="card-content">{children}</div>
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
-}
+};
 
 export default Card;

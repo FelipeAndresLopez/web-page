@@ -6,16 +6,8 @@
   margin-bottom: 10px;
 }
 
-.dev-portfolio-container {
-  background-color: var(--dark-blue-4);
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.dev-portfolio-image {
-  width: 100%;
+.cursor-pointer {
   cursor: pointer;
-  height: auto;
 }
 
 .linkUnstyled {
