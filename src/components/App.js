@@ -13,7 +13,6 @@ import Layout from './Layout';
 import NotFound from './NotFound';
 
 const App = () => {
-
   useEffect(() => {
     ReactGA.initialize('UA-172560430-1');
 
@@ -41,7 +40,7 @@ const App = () => {
         </Switch>
       </Layout>
     </HashRouter>
-  )
+  );
 };
 
 export default App;

@@ -1,90 +1,84 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import './css/Navbar.css';
 
-class Navbar extends React.Component {
-  hideMenu = () => {
-    const menuBtn = document.getElementById('menu-btn');
-    if (menuBtn.checked === true) {
-      menuBtn.checked = false;
-    }
-  };
-  componentWillUnmount() {
-    document.addEventListener('click', this.hideMenu);
-  }
+const Navbar = () => {
+  const [opened, setOpened] = useState(false);
 
-  render() {
-    return (
-      <React.Fragment>
-        <header>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <nav className="menu">
-            <ul>
-              <li>
-                <NavLink
-                  to="/"
-                  activeClassName={"active"}
-                  exact={true}
-                  onClick={this.hideMenu}
-                >
-                  HOME
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/skills"
-                  activeClassName={"active"}
-                  onClick={this.hideMenu}
-                >
-                  SKILLS
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/experience"
-                  activeClassName={"active"}
-                  onClick={this.hideMenu}
-                >
-                  EXPERIENCE
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/education"
-                  activeClassName={"active"}
-                  onClick={this.hideMenu}
-                >
-                  EDUCATION
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/portfolio"
-                  activeClassName={"active"}
-                  onClick={this.hideMenu}
-                >
-                  PORTFOLIO
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/blog"
-                  activeClassName={"active"}
-                  onClick={this.hideMenu}
-                >
-                  BLOG
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-        </header>
-      </React.Fragment>
-    );
-  }
-}
+  const hideMenu = () => {
+    opened && setOpened(false);
+  };
+
+  return (
+    <>
+      <header>
+        <label className="menu-icon" htmlFor="menu-btn">
+          <input className="menu-btn" type="checkbox" id="menu-btn" value={opened} onChange={hideMenu} />
+          <span className="navicon" />
+        </label>
+        <nav className="menu">
+          <ul>
+            <li>
+              <NavLink
+                to="/"
+                activeClassName="active"
+                exact
+                onClick={hideMenu}
+              >
+                HOME
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/skills"
+                activeClassName="active"
+                onClick={hideMenu}
+              >
+                SKILLS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/experience"
+                activeClassName="active"
+                onClick={hideMenu}
+              >
+                EXPERIENCE
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/education"
+                activeClassName="active"
+                onClick={hideMenu}
+              >
+                EDUCATION
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/portfolio"
+                activeClassName="active"
+                onClick={hideMenu}
+              >
+                PORTFOLIO
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/blog"
+                activeClassName="active"
+                onClick={hideMenu}
+              >
+                BLOG
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
+};
 
 export default Navbar;

@@ -29,10 +29,10 @@ class ModalImage extends React.Component {
     return ReactDOM.createPortal(
       <>
         <div id="modalImage" className="modal">
-          <span type="button" className="close" onClick={this.onCloseModal}>
+          <button type="button" className="close" onClick={this.onCloseModal}>
             &times;
-          </span>
-          <img className="modal-content" alt="Imagen modal" id="image" />
+          </button>
+          <img className="modal-content" alt="modal" id="image" />
           <div id="caption" />
         </div>
       </>,
