@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/Card";
+import Card from '@patterns/atoms/Card/Card.js';
 import "./css/Blog.css";
 
 import philipPhoto from "./images/blog/foto-felipe-2.jpg";
