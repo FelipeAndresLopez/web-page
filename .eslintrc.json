@@ -23,9 +23,19 @@
         "react"
     ],
     "rules": {
-        "react/require-default-props": [0, { "forbidDefaultForRequired": 0, "ignoreFunctionalComponents": 0 }],
-
-        "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+        "react/require-default-props": [
+            0,
+            {
+                "forbidDefaultForRequired": 0,
+                "ignoreFunctionalComponents": 0
+            }
+        ],
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true
+            }
+        ],
         "linebreak-style": 0,
         "global-require": 0,
         "eslint linebreak-style": [
@@ -52,5 +62,14 @@
                 "functions": "never"
             }
         ]
+    },
+    "settings": {
+        "import/resolver": {
+            "babel-module": {
+                "alias": {
+                    "@patterns": "./src/patterns"
+                }
+            }
+        }
     }
 }
