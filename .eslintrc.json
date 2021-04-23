@@ -61,12 +61,19 @@
                 "exports": "never",
                 "functions": "never"
             }
+        ],
+        "react/no-unescaped-entities": [
+            0
         ]
     },
     "settings": {
         "import/resolver": {
             "babel-module": {
                 "alias": {
+                    "@app": "./src/app",
+                    "@api": "./src/api",
+                    "@assets": "./src/assets",
+                    "@libs": "./src/libs",
                     "@patterns": "./src/patterns"
                 }
             }

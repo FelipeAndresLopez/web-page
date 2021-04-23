@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { node } from 'prop-types';
-import Navbar from './Navbar';
+import Navbar from '@patterns/organisms/Navbar';
 
 const Layout = ({ children }) => (
   <>

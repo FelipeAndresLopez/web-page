@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NotFound from "../components/NotFound";
-import Slideshow from "../components/Slideshow";
+import NotFound from "../NotFound/NotFound";
+import Slideshow from "../../molecules/SlideShow/Slideshow";
 
 import philipsAdventure1 from "../pages/images/development/philips-adventure/gui-1.jpg";
 import philipsAdventure2 from "../pages/images/development/philips-adventure/gui-2.jpg";
@@ -32,7 +32,7 @@ class ProjectDetails extends React.Component {
     this.fetchData();
   }
 
-  onNextProject = () => {};
+  onNextProject = () => { };
 
   fetchData = () => {
     const projectsData = {

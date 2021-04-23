@@ -4,7 +4,7 @@ import './Card.css';
 
 const Card = (props) => {
   const {
-    photo,
+    photoUrl,
     caption,
     alt,
     children
@@ -15,7 +15,7 @@ const Card = (props) => {
         <div className="col-xs-12">
           <div className="card">
             <div className="card-photo">
-              <img src={photo} alt={alt} />
+              <img src={photoUrl} alt={alt} />
               <div className="text-block">
                 <p>{caption}</p>
               </div>
@@ -29,14 +29,14 @@ const Card = (props) => {
 };
 
 Card.defaultProps = {
-  photo: '',
+  photoUrl: '',
   caption: 'Image',
   alt: 'An image',
   children: null
 };
 
 Card.propTypes = {
-  photo: string,
+  photoUrl: string,
   caption: string,
   alt: string,
   children: node

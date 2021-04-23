@@ -2,8 +2,8 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
 
-import ModalImage from "../components/ModalImage.js";
-import ModalCard from '../components/ModalCard';
+import ModalImage from "../../molecules/ModalImage/ModalImage.js";
+import ModalCard from '../../molecules/ModalCard/ModalCard';
 
 import "./css/ReactTabs.css";
 import "./css/Portfolio.css";
@@ -15,7 +15,7 @@ import cocrealab3 from "./images/design/cocrealab-3.jpg";
 import philipsAdventure from "./images/development/philips-adventure/game-done.jpg";
 import fileManager from "./images/development/file-manager/fm-1.jpg";
 import cocrealabApp from "./images/development/cocrealab/cocrealab-0.png";
-import SingleCard from '../components/SingleCard';
+import SingleCard from '../../molecules/SingleCard/SingleCard';
 
 class Portfolio extends React.Component {
   constructor(props) {

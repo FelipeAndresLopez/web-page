@@ -1,12 +1,12 @@
-import React from "react";
-import Card from '@patterns/atoms/Card';
-import "./css/Blog.css";
+import React from 'react';
+import Card from '@patterns/molecules/Card';
+import './styles.css';
 
-import philipPhoto from "./images/blog/foto-felipe-2.jpg";
+import philipPhoto from './images/blog/foto-felipe-2.jpg';
 
-import rockMusic from "./images/blog/rock-music.jpg";
-import philipOnBike from "./images/blog/riding-on-bike.jpg";
-import hatosReservoir from "./images/blog/hatos-reservoir.jpg";
+import rockMusic from './images/blog/rock-music.jpg';
+import philipOnBike from './images/blog/riding-on-bike.jpg';
+import hatosReservoir from './images/blog/hatos-reservoir.jpg';
 
 class Blog extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <div id="blog" className="bkg-img bkg-6 full-page">
           <div className="full-page">
             <div className="main-content">
@@ -33,12 +33,13 @@ class Blog extends React.Component {
                     </div>
                     <div className="card-content">
                       <h3 className="quotes small-quotes white">
-                        <span className="marks">"</span>First of all, thank you
+                        <span className="marks">&quot;</span>
+                        First of all, thank you
                         from my heart for dedicating a bit of your time to visit
                         this web site and read this blog, I'm sure we have
                         interests in common and It would be great share
-                        something of them together.
-                        <span className="marks">"</span>
+                        something of them together
+                        <span className="marks">&quot;</span>
                       </h3>
                     </div>
                   </div>
@@ -51,7 +52,7 @@ class Blog extends React.Component {
                 </div>
               </div>
 
-              <Card photo={rockMusic} alt="Rock music" caption="Rock band">
+              <Card photoUrl={rockMusic} alt="Rock music" caption="Rock band">
                 <h4>Do you like rock music?</h4>
                 <p>
                   Play the guitar is one of things that I enjoy to do. Did you
@@ -61,12 +62,12 @@ class Blog extends React.Component {
                   <li>Improve memory</li>
                   <li>Acquire discipline</li>
                   <li>Reduce stress</li>
-                  <li>Acquire cordination</li>
+                  <li>Acquire coordination</li>
                 </ul>
               </Card>
 
               <Card
-                photo={philipOnBike}
+                photoUrl={philipOnBike}
                 alt="Neusa's reservoir"
                 caption="Neusa's reservoir"
               >
@@ -96,7 +97,7 @@ class Blog extends React.Component {
               </Card>
 
               <Card
-                photo={hatosReservoir}
+                photoUrl={hatosReservoir}
                 alt="Hato's reservoir"
                 caption="Hato's reservoir"
               >
@@ -137,7 +138,7 @@ class Blog extends React.Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }

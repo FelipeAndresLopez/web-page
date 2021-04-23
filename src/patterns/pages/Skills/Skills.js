@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Skillbar from '../components/Skillbar.js';
+import Skillbar from '../../molecules/SkillBar/Skillbar.js';
 
 class Skills extends React.Component {
   constructor(props) {

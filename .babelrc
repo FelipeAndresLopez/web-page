@@ -4,6 +4,10 @@
       "module-resolver",
       {
         "alias": {
+          "@app": "./src/app",
+          "@api": "./src/api",
+          "@assets": "./src/assets",
+          "@libs": "./src/libs",
           "@patterns": "./src/patterns"
         }
       }
