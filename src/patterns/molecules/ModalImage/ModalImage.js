@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './css/ModalImage.css';
+import './ModalImage.css';
 
 class ModalImage extends React.Component {
   constructor(props) {

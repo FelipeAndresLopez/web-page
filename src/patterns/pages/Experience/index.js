@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Timeline from '../../molecules/TimeLine/Timeline.js';
+import Timeline from '@patterns/molecules/TimeLine';
 
 class Experience extends React.Component {
   constructor(props) {

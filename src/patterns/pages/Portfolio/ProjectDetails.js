@@ -1,24 +1,24 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import NotFound from "../NotFound/NotFound";
-import Slideshow from "../../molecules/SlideShow/Slideshow";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import NotFound from '@patterns/pages/NotFound';
+import Slideshow from '@patterns/molecules/SlideShow/Slideshow';
 
-import philipsAdventure1 from "../pages/images/development/philips-adventure/gui-1.jpg";
-import philipsAdventure2 from "../pages/images/development/philips-adventure/gui-2.jpg";
-import philipsAdventure3 from "../pages/images/development/philips-adventure/gui-3.jpg";
+import philipsAdventure1 from '@assets/images/portfolio/development/philips-adventure/gui-1.jpg';
+import philipsAdventure2 from '@assets/images/portfolio/development/philips-adventure/gui-2.jpg';
+import philipsAdventure3 from '@assets/images/portfolio/development/philips-adventure/gui-3.jpg';
 
-import philipsAdventure4 from "../pages/images/development/philips-adventure/mision-1.jpg";
-import philipsAdventure5 from "../pages/images/development/philips-adventure/mision-4.jpg";
-import philipsAdventure6 from "../pages/images/development/philips-adventure/mision-5.jpg";
+import philipsAdventure4 from '@assets/images/portfolio/development/philips-adventure/mision-1.jpg';
+import philipsAdventure5 from '@assets/images/portfolio/development/philips-adventure/mision-4.jpg';
+import philipsAdventure6 from '@assets/images/portfolio/development/philips-adventure/mision-5.jpg';
 
-import fileManager1 from "../pages/images/development/file-manager/fm-2.png";
-import fileManager2 from "../pages/images/development/file-manager/fm-3.png";
+import fileManager1 from '@assets/images/portfolio/development/file-manager/fm-2.png';
+import fileManager2 from '@assets/images/portfolio/development/file-manager/fm-3.png';
 
-import cocrealab1 from "../pages/images/development/cocrealab/cocrealab-1.png";
-import cocrealab2 from "../pages/images/development/cocrealab/cocrealab-2.png";
-import cocrealab3 from "../pages/images/development/cocrealab/cocrealab-3.png";
-import cocrealab4 from "../pages/images/development/cocrealab/cocrealab-4.png";
-import cocrealab5 from "../pages/images/development/cocrealab/cocrealab-5.png";
+import cocrealab1 from '@assets/images/portfolio/development/cocrealab/cocrealab-1.png';
+import cocrealab2 from '@assets/images/portfolio/development/cocrealab/cocrealab-2.png';
+import cocrealab3 from '@assets/images/portfolio/development/cocrealab/cocrealab-3.png';
+import cocrealab4 from '@assets/images/portfolio/development/cocrealab/cocrealab-4.png';
+import cocrealab5 from '@assets/images/portfolio/development/cocrealab/cocrealab-5.png';
 
 class ProjectDetails extends React.Component {
   constructor(props) {

@@ -3,6 +3,12 @@
     [
       "module-resolver",
       {
+        "extensions": [
+          ".js",
+          ".json",
+          ".vue",
+          ".css"
+        ],
         "alias": {
           "@app": "./src/app",
           "@api": "./src/api",

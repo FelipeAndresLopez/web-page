@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./css/Slideshow.css";
+import "./Slideshow.css";
 
 class Slideshow extends React.Component {
   constructor(props) {

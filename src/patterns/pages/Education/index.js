@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Timeline from '../../components/Timeline';
-import titles from './data/titles.json';
-import certifications from './data/certifications.js';
-import SingleCard from '../../components/SingleCard';
+import Timeline from '@patterns/molecules/TimeLine';
+import SingleCard from '@patterns/molecules/SingleCard/SingleCard';
+import titles from '@api/titles.json';
+import certifications from '@api/certifications.js';
 
 const Education = () => {
 

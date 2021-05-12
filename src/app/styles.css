@@ -42,33 +42,33 @@ html {
   z-index: 1;
 }
 
-/* .bkg-1 {
-  background-image: url("@assets/images/backgrounds/bkg-1.jpg");
+.bkg-1 {
+  background-image: url("../assets/images/backgrounds/bkg-1.jpg");
 }
 
 .bkg-2 {
-  background-image: url("@assets/images/backgrounds/bkg-2.jpg");
+  background-image: url("../assets/images/backgrounds/bkg-2.jpg");
 }
 
 .bkg-3 {
-  background-image: url("@assets/images/backgrounds/bkg-3.jpg");
+  background-image: url("../assets/images/backgrounds/bkg-3.jpg");
 }
 
 .bkg-4 {
-  background-image: url("@assets/images/backgrounds/bkg-4.jpg");
+  background-image: url("../assets/images/backgrounds/bkg-4.jpg");
 }
 
 .bkg-5 {
-  background-image: url("@assets/images/backgrounds/bkg-5.jpg");
+  background-image: url("../assets/images/backgrounds/bkg-5.jpg");
 }
 
 .bkg-6 {
-  background-image: url("@assets/images/backgrounds/bkg-6.jpg");
+  background-image: url("../assets/images/backgrounds/bkg-6.jpg");
 }
 
 .bkg-7 {
-  background-image: url("@assets/images/backgrounds/bkg-7.jpg");
-} */
+  background-image: url("../assets/images/backgrounds/bkg-7.jpg");
+}
 
 .bkg-rec {
   z-index: 2;

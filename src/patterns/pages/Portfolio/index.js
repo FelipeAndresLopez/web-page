@@ -1,21 +1,21 @@
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Link } from 'react-router-dom';
 
-import ModalImage from "../../molecules/ModalImage/ModalImage.js";
+import ModalImage from '../../molecules/ModalImage/ModalImage.js';
 import ModalCard from '../../molecules/ModalCard/ModalCard';
 
-import "./css/ReactTabs.css";
-import "./css/Portfolio.css";
+import '@patterns/atoms/ReactTabs/ReactTabs.css';
+import './styles.css';
 
-import cocrealab1 from "./images/design/cocrealab-1.jpg";
-import cocrealab2 from "./images/design/cocrealab-2.jpg";
-import cocrealab3 from "./images/design/cocrealab-3.jpg";
+import cocrealab1 from '@assets/images/portfolio/design/cocrealab-1.jpg';
+import cocrealab2 from '@assets/images/portfolio/design/cocrealab-2.jpg';
+import cocrealab3 from '@assets/images/portfolio/design/cocrealab-3.jpg';
 
-import philipsAdventure from "./images/development/philips-adventure/game-done.jpg";
-import fileManager from "./images/development/file-manager/fm-1.jpg";
-import cocrealabApp from "./images/development/cocrealab/cocrealab-0.png";
-import SingleCard from '../../molecules/SingleCard/SingleCard';
+import philipsAdventure from '@assets/images/portfolio/development/philips-adventure/game-done.jpg';
+import fileManager from '@assets/images/portfolio/development/file-manager/fm-1.jpg';
+import cocrealabApp from '@assets/images/portfolio/development/cocrealab/cocrealab-0.png';
+import SingleCard from '@patterns/molecules/SingleCard/SingleCard';
 
 class Portfolio extends React.Component {
   constructor(props) {

@@ -2,11 +2,11 @@ import React from 'react';
 import Card from '@patterns/molecules/Card';
 import './styles.css';
 
-import philipPhoto from './images/blog/foto-felipe-2.jpg';
+import philipPhoto from '@assets/images/blog/foto-felipe-2.jpg';
 
-import rockMusic from './images/blog/rock-music.jpg';
-import philipOnBike from './images/blog/riding-on-bike.jpg';
-import hatosReservoir from './images/blog/hatos-reservoir.jpg';
+import rockMusic from '@assets/images/blog/rock-music.jpg';
+import philipOnBike from '@assets/images/blog/riding-on-bike.jpg';
+import hatosReservoir from '@assets/images/blog/hatos-reservoir.jpg';
 
 class Blog extends React.Component {
   constructor(props) {

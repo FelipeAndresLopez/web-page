@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/SingleCard.css';
+import './SingleCard.css';
 
 const SingleCard = ({ src, alt, caption }) => (
   <div className="single-card__container">

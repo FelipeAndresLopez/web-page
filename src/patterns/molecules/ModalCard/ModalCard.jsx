@@ -1,6 +1,6 @@
 import React from 'react';
 import { string, number, func } from 'prop-types';
-import '../assets/styles/components/SingleCard.css';
+// import '../assets/styles/components/SingleCard.css';
 
 const ModalCard = ({
   id,
