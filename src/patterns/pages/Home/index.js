@@ -1,13 +1,15 @@
 import React from 'react';
 
-import philipPhoto from '@assets/images/home/foto-felipe-1.jpg';
+import philipPhoto from '@assets/images/home/photo-felipe-1.jpg';
 import facebookIcon from '@assets/icons/facebook-icon.svg';
-import linkedInIcon from '@assets/icons/linkedin-icon.svg';
+import linkedInIcon from '@assets/icons/linkedIn-icon.svg';
 import githubIcon from '@assets/icons/github-icon.svg';
 import './styles.css';
+
 import smallBkg from '@assets/images/backgrounds/home/small.jpg';
 import mediumBkg from '@assets/images/backgrounds/home/medium.jpg';
 import largeBkg from '@assets/images/backgrounds/home/large.jpg';
+
 import { PageContainer } from '@patterns/organisms/PageContainer';
 
 const Home = () => (

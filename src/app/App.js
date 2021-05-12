@@ -2,15 +2,16 @@ import React, { useEffect } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
-import ProjectDetails from '@patterns/pages/Portfolio/ProjectDetails';
 import Home from '@patterns/pages/Home';
 import Skills from '@patterns/pages/Skills';
 import Experience from '@patterns/pages/Experience';
 import Education from '@patterns/pages/Education';
 import Portfolio from '@patterns/pages/Portfolio';
+import ProjectDetails from '@patterns/pages/Portfolio/ProjectDetails';
 import Blog from '@patterns/pages/Blog';
-import Layout from '@patterns/templates/Layout';
 import NotFound from '@patterns/pages/NotFound';
+
+import Layout from '@patterns/templates/Layout';
 
 const App = () => {
   useEffect(() => {

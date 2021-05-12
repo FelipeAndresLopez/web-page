@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "date": "feb. 2017 - aug. 2017",
+      "company": "Cocrealab",
+      "title": "Full stack developer",
+      "description": "Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.",
+      "align": "right"
+    },
+    {
+      "id": "1",
+      "date": "aug. 2015 - oct. 2015",
+      "company": "Eforcers",
+      "title": "Full stack developer",
+      "description": "Development and deployment of a file manager plug-in for an internal social network of Grupo de Diarios de América.",
+      "align": "left"
+    },
+    {
+      "id": "2",
+      "date": "aug. 2015 - oct. 2015",
+      "company": "Eforcers",
+      "title": "Full stack developer",
+      "description": "Development and deployment of a file manager plug-in for an internal social network of Grupo de Diarios de América.",
+      "align": "right"
+    },
+    {
+      "id": "3",
+      "date": "nov. 2015 - apr. 2019",
+      "company": "Sinova",
+      "title": "Full stack developer",
+      "description": "Development and design of web applications and plugins, using technologies such as Apps Script, Javascript, Css, Html, jQuery, MySQL and Bootstrap; for automating workflows.",
+      "align": "left"
+    },
+    {
+      "id": "4",
+      "date": "dec. 2019 - dec. 2020",
+      "company": "TempEdge",
+      "title": "React developer (Remote)",
+      "description": "Development of components for applications using technologies such as React Js, Redux, Css, Html, Bootstrap and API REST.",
+      "align": "right"
+    },
+    {
+      "id": "5",
+      "date": "dec. 2020 - continue",
+      "company": "Globant",
+      "title": "Web UI Developer",
+      "description": "Development of web apps and mobile apps using technologies such as React Native, React Js, Redux, Css, Html, Bootstrap and API REST.",
+      "align": "left"
+    }
+  ]
+}
