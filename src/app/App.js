@@ -6,8 +6,8 @@ import Home from '@patterns/pages/Home';
 import Skills from '@patterns/pages/Skills';
 import Experience from '@patterns/pages/Experience';
 import Education from '@patterns/pages/Education';
-import Portfolio from '@patterns/pages/Portfolio';
-import ProjectDetails from '@patterns/pages/Portfolio/ProjectDetails';
+import Portfolio from '@patterns/pages/Portfolio/Portfolio.jsx';
+import ProjectDetails from '@patterns/pages/Portfolio/ProjectDetails.jsx';
 import Blog from '@patterns/pages/Blog';
 import NotFound from '@patterns/pages/NotFound';
 
@@ -32,7 +32,6 @@ const App = () => {
           <Route exact path="/education" component={Education} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route
-            exact
             path="/portfolio/:projectId"
             component={ProjectDetails}
           />

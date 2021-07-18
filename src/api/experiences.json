@@ -1,14 +1,6 @@
 {
   "data": [
     {
-      "id": "0",
-      "date": "feb. 2017 - aug. 2017",
-      "company": "Cocrealab",
-      "title": "Full stack developer",
-      "description": "Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.",
-      "align": "right"
-    },
-    {
       "id": "1",
       "date": "aug. 2015 - oct. 2015",
       "company": "Eforcers",
@@ -18,10 +10,10 @@
     },
     {
       "id": "2",
-      "date": "aug. 2015 - oct. 2015",
-      "company": "Eforcers",
+      "date": "feb. 2017 - aug. 2017",
+      "company": "Cocrealab",
       "title": "Full stack developer",
-      "description": "Development and deployment of a file manager plug-in for an internal social network of Grupo de Diarios de América.",
+      "description": "Development and design of a web application, for visualizing the coverage of higher education in Colombia, by city and region.",
       "align": "right"
     },
     {
