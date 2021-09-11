@@ -1,0 +1,19 @@
+.skill__container {
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  margin: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--dark-blue-3);
+  border-bottom: 5px solid var(--light-green);
+}
+
+.skill__container .skill__name {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  font-weight: 400;
+}

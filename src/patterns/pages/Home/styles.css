@@ -8,16 +8,10 @@
   margin-right: auto;
 }
 
-.photo-circle:after {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
-}
-
 .photo-circle img {
-  width: auto;
-  height: 155%;
-  margin-top: -60px;
+  object-fit: cover;
+  width: 200px;
+  text-align: center;
 }
 
 .icons-container img {

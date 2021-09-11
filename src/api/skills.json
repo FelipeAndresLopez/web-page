@@ -45,6 +45,21 @@
         "id": "9",
         "name": "Google Apis",
         "percent": "70"
+      },
+      {
+        "id": "10",
+        "name": "Flutter",
+        "percent": "20"
+      },
+      {
+        "id": "11",
+        "name": "React Native",
+        "percent": "70"
+      },
+      {
+        "id": "12",
+        "name": "Java",
+        "percent": "70"
       }
     ],
     "desSkills": [
@@ -88,6 +103,11 @@
       {
         "id": "5",
         "name": "Empathy",
+        "percent": "100"
+      },
+      {
+        "id": "6",
+        "name": "Lifelong learner",
         "percent": "100"
       }
     ]
