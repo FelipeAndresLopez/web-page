@@ -1,12 +1,12 @@
 import React from 'react';
+
 import Card from '@patterns/molecules/Card';
-import './styles.css';
-
 import philipPhoto from '@assets/images/blog/foto-felipe-2.jpg';
-
 import rockMusic from '@assets/images/blog/rock-music.jpg';
 import philipOnBike from '@assets/images/blog/riding-on-bike.jpg';
 import hatosReservoir from '@assets/images/blog/hatos-reservoir.jpg';
+import { CircleAvatar } from '../../atoms/CircleAvatar';
+import './styles.css';
 
 class Blog extends React.Component {
   constructor(props) {
@@ -28,9 +28,7 @@ class Blog extends React.Component {
               <div className="row">
                 <div className="col-xs-12 col-md-8 col-md-offset-2">
                   <div className="card gratefulness-card">
-                    <div className="blog-photo-circle">
-                      <img src={philipPhoto} alt="Felipe López - Foto" />
-                    </div>
+                    <CircleAvatar imageUrl={philipPhoto} />
                     <div className="card-content">
                       <h3 className="quotes small-quotes white">
                         <span className="marks">&quot;</span>

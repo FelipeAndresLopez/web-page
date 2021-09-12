@@ -1,25 +1,22 @@
 import React from 'react';
 
-import philipPhoto from '@assets/images/home/photo-felipe-1.jpg';
-import felipeAvatar from '@assets/images/home/felipe_avatar.JPG';
+import felipeAvatar from '@assets/images/home/felipe_avatar.jpg';
 import facebookIcon from '@assets/icons/facebook-icon.svg';
 import linkedInIcon from '@assets/icons/linkedIn-icon.svg';
 import githubIcon from '@assets/icons/github-icon.svg';
-import './styles.css';
-
 import { PageContainer } from '@patterns/organisms/PageContainer';
+import { CircleAvatar } from '@patterns/atoms/CircleAvatar/index.jsx';
+import './styles.css';
 
 const Home = () => (
   <>
     <PageContainer>
       <div className="row">
         <div className="col-xs-12">
-          <div className="photo-circle">
-            <img src={felipeAvatar} alt="Felipe López" />
-          </div>
+          <CircleAvatar imageUrl={felipeAvatar} />
         </div>
       </div>
-
+      <br />
       <div className="row">
         <div className="col-xs-12 center-xs">
           <h1>

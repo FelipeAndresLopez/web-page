@@ -59,7 +59,8 @@
   }
 
   .photo-circle img {
-    margin-top: -32px;
+    object-fit: fill;
+    width: 150px;
   }
 
   header nav li {
@@ -78,10 +79,6 @@
     height: 150px;
     margin-top: 0%;
     margin-bottom: 10%;
-  }
-
-  .photo-circle img {
-    margin-top: -32px;
   }
 }
 
