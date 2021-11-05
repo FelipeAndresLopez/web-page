@@ -60,23 +60,11 @@
         "id": "12",
         "name": "Java",
         "percent": "70"
-      }
-    ],
-    "desSkills": [
-      {
-        "id": "1",
-        "name": "Adobe Xd",
-        "percent": "60"
       },
       {
-        "id": "2",
-        "name": "Photoshop",
-        "percent": "30"
-      },
-      {
-        "id": "3",
-        "name": "Illustrator",
-        "percent": "30"
+        "id": "13",
+        "name": "Dart",
+        "percent": "70"
       }
     ],
     "softSkills": [
@@ -87,7 +75,7 @@
       },
       {
         "id": "2",
-        "name": "Leadership",
+        "name": "Clear Thinker",
         "percent": "80"
       },
       {
@@ -107,7 +95,7 @@
       },
       {
         "id": "6",
-        "name": "Lifelong learner",
+        "name": "Lifelong Learner",
         "percent": "100"
       }
     ]

@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Timeline from '@patterns/molecules/TimeLine/index.jsx';
-import SingleCard from '@patterns/molecules/SingleCard/SingleCard';
 import titles from '@api/titles.json';
 import certifications from '@api/certifications.js';
+import { Timeline } from '@patterns/molecules/TimeLine/TimeLine.jsx';
+import { SingleCard } from '@patterns/molecules/SingleCard/SingleCard.jsx';
+import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
 
 const Education = () => (
   <>
@@ -12,7 +13,7 @@ const Education = () => (
         <div className="main-content">
           <div className="row">
             <div className="col-xs-12 center-xs">
-              <h1>Education</h1>
+              <PrimaryTitle>Education</PrimaryTitle>
             </div>
           </div>
           <div className="row">
@@ -44,7 +45,7 @@ const Education = () => (
 
           <div className="row my-5">
             <div className="col-xs-12 center-xs">
-              <h1>Certifications</h1>
+              <PrimaryTitle>Courses</PrimaryTitle>
             </div>
           </div>
 

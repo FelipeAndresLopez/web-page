@@ -1,11 +1,13 @@
 import React from 'react';
 
-import Card from '@patterns/molecules/Card';
+import { Card } from '@patterns/molecules/Card/Card.jsx';
+import { CircleAvatar } from '@patterns/atoms/CircleAvatar/CircleAvatar.jsx';
+import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
+
 import philipPhoto from '@assets/images/blog/foto-felipe-2.jpg';
 import rockMusic from '@assets/images/blog/rock-music.jpg';
 import philipOnBike from '@assets/images/blog/riding-on-bike.jpg';
 import hatosReservoir from '@assets/images/blog/hatos-reservoir.jpg';
-import { CircleAvatar } from '../../atoms/CircleAvatar';
 import './styles.css';
 
 class Blog extends React.Component {
@@ -22,7 +24,7 @@ class Blog extends React.Component {
             <div className="main-content">
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <h1>Blog</h1>
+                  <PrimaryTitle>Blog</PrimaryTitle>
                 </div>
               </div>
               <div className="row">

@@ -1,7 +1,9 @@
 import React from 'react';
 import './SingleCard.css';
 
-const SingleCard = ({ src, alt, caption }) => (
+import { string } from 'prop-types';
+
+export const SingleCard = ({ src, alt, caption }) => (
   <div className="single-card__container">
     <img
       className="single-card__image"
@@ -12,4 +14,8 @@ const SingleCard = ({ src, alt, caption }) => (
   </div>
 );
 
-export default SingleCard;
+SingleCard.propTypes = {
+  src: string,
+  alt: string,
+  caption: string
+};

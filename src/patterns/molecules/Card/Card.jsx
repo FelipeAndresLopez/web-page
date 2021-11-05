@@ -1,8 +1,9 @@
 import React from 'react';
 import { string, node } from 'prop-types';
+
 import './Card.css';
 
-const Card = (props) => {
+export const Card = (props) => {
   const {
     photoUrl,
     caption,
@@ -41,5 +42,3 @@ Card.propTypes = {
   alt: string,
   children: node
 };
-
-export default Card;

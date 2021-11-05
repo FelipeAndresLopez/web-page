@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Timeline from '@patterns/molecules/TimeLine/index.jsx';
 import experiences from '@api/experiences.json';
+import { Timeline } from '@patterns/molecules/TimeLine/TimeLine.jsx';
+import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
 
 const Experience = () => (
   <>
@@ -10,7 +11,7 @@ const Experience = () => (
         <div className="main-content">
           <div className="row">
             <div className="col-xs-12 center-xs">
-              <h1>Experience</h1>
+              <PrimaryTitle>Experience</PrimaryTitle>
             </div>
           </div>
           <div className="row">

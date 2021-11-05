@@ -4,11 +4,12 @@ import {
 } from 'react-tabs';
 import { Link } from 'react-router-dom';
 
+import projects from '@api/projects.js';
+import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
+import { SingleCard } from '@patterns/molecules/SingleCard/SingleCard.jsx';
+
 import '@patterns/atoms/ReactTabs/ReactTabs.css';
 import './styles.css';
-
-import projects from '@api/projects.js';
-import SingleCard from '@patterns/molecules/SingleCard/SingleCard';
 
 const Portfolio = () => (
   <>
@@ -17,7 +18,7 @@ const Portfolio = () => (
         <div className="main-content">
           <div className="row">
             <div className="col-xs-12 center-xs">
-              <h1>Portfolio</h1>
+              <PrimaryTitle>Portfolio</PrimaryTitle>
             </div>
           </div>
           <div className="row">

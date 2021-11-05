@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import NotFound from '@patterns/pages/NotFound';
+import NotFound from '@patterns/pages/NotFound/NotFound.jsx';
 import Slideshow from '@patterns/molecules/SlideShow/Slideshow';
 import projects from '@api/projects.js';
 

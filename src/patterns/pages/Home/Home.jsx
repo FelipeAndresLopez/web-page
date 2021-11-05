@@ -5,7 +5,8 @@ import facebookIcon from '@assets/icons/facebook-icon.svg';
 import linkedInIcon from '@assets/icons/linkedIn-icon.svg';
 import githubIcon from '@assets/icons/github-icon.svg';
 import { PageContainer } from '@patterns/organisms/PageContainer';
-import { CircleAvatar } from '@patterns/atoms/CircleAvatar/index.jsx';
+import { CircleAvatar } from '@patterns/atoms/CircleAvatar/CircleAvatar.jsx';
+import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
 import './styles.css';
 
 const Home = () => (
@@ -19,15 +20,14 @@ const Home = () => (
       <br />
       <div className="row">
         <div className="col-xs-12 center-xs">
-          <h1>
+          <PrimaryTitle>
             I
             <span className="marks">'</span>
             m
-          </h1>
-          <h1>
+            <br />
             Felipe Andrés López
             <span className="marks">.</span>
-          </h1>
+          </PrimaryTitle>
           <h4 className="align-center">
             JavaScript developer
             <span className="marks"> &gt;&gt; </span>

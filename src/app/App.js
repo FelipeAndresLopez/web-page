@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
-import Home from '@patterns/pages/Home';
-import Skills from '@patterns/pages/Skills';
-import Experience from '@patterns/pages/Experience';
-import Education from '@patterns/pages/Education';
+import Home from '@patterns/pages/Home/Home.jsx';
+import Skills from '@patterns/pages/Skills/Skills.jsx';
+import Experience from '@patterns/pages/Experience/Experience.jsx';
+import Education from '@patterns/pages/Education/Education.jsx';
 import Portfolio from '@patterns/pages/Portfolio/Portfolio.jsx';
 import ProjectDetails from '@patterns/pages/Portfolio/ProjectDetails.jsx';
-import Blog from '@patterns/pages/Blog';
-import NotFound from '@patterns/pages/NotFound';
+import Blog from '@patterns/pages/Blog/Blog.jsx';
+import NotFound from '@patterns/pages/NotFound/NotFound.jsx';
 
 import Layout from '@patterns/templates/Layout';
 
@@ -18,7 +18,7 @@ const App = () => {
     ReactGA.initialize('UA-172560430-1');
 
     // To report page view
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(window.location.pathname + window.location.seacrch);
   }, []);
 
   return (
