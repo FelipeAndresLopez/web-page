@@ -29,7 +29,7 @@ const Home = () => (
             <span className="marks">.</span>
           </PrimaryTitle>
           <h4 className="align-center">
-            JavaScript developer
+            Javascript developer
             <span className="marks"> &gt;&gt; </span>
             Frontend developer
             <span className="marks"> &gt;&gt; </span>

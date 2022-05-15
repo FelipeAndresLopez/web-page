@@ -1,9 +1,5 @@
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
 @media (min-width: 768px) {
+
   /* Scroll styles */
   /* width */
   ::-webkit-scrollbar {
@@ -19,38 +15,13 @@
   ::-webkit-scrollbar-thumb {
     background: var(--dark-blue-gray-1);
   }
+
+  .mobile-menu-button {
+    display: none;
+  }
 }
 
-/* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-}
-
-/* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-}
-
-/* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-}
-
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .photo-circle {
     width: 150px;
     height: 150px;
@@ -63,31 +34,6 @@
     width: 150px;
   }
 
-  header nav li {
-    padding: 12px;
-  }
-}
-
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .photo-circle {
-    width: 150px;
-    height: 150px;
-    margin-top: 0%;
-    margin-bottom: 10%;
-  }
-}
-
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-
-@media (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
@@ -100,11 +46,8 @@
     font-size: 24px;
   }
 
-  header {
-    background-color: transparent;
-    width: 64px;
-    right: 0;
-    /* height: 50px; */
+  header.desktop-menu {
+    display: none;
   }
 
   .main-content {
@@ -113,103 +56,6 @@
 
   .event-container .content {
     padding: 0;
-  }
-
-  /* mobile menu */
-
-  header nav.menu {
-    clear: none;
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-    z-index: 3;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: var(--dark-blue-3);
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    display: block;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-  }
-
-  header nav ul {
-    display: grid;
-    padding: 0;
-    justify-content: space-around;
-    align-content: center;
-    height: 100%;
-    margin: 0;
-    align-items: center;
-  }
-
-  /* menu icon */
-
-  header .menu-icon {
-    cursor: pointer;
-    padding: 18px;
-    position: relative;
-    user-select: none;
-    z-index: 4;
-  }
-
-  header .menu-icon .navicon {
-    background: var(--white);
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background 0.2s ease-in-out;
-    width: 25px;
-  }
-
-  header .menu-icon .navicon:before,
-  header .menu-icon .navicon:after {
-    background: var(--white);
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
-
-  header .menu-icon .navicon:before {
-    top: 8px;
-  }
-
-  header .menu-icon .navicon:after {
-    top: -8px;
-  }
-
-  /* menu btn */
-
-  header .menu-btn {
-    display: none;
-  }
-
-  header .menu-btn:checked ~ .menu {
-    opacity: 1;
-    visibility: inherit;
-    overflow: auto;
-  }
-
-  header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-
-  header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-
-  header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(-135deg);
-  }
-
-  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
   }
 
   /* Place the timelime to the left */
@@ -242,6 +88,7 @@
   .right {
     left: 0%;
   }
+
   .left {
     text-align: left;
   }
@@ -253,6 +100,7 @@
   .react-tabs__tab {
     font-size: 24px;
   }
+
   .slideshow-container {
     max-width: 100%;
   }
@@ -290,6 +138,7 @@
     -webkit-columns: 2;
     -moz-columns: 2;
   }
+
   .error-404 {
     font-size: 140px;
   }

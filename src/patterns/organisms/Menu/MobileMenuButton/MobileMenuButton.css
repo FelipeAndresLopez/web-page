@@ -1,0 +1,60 @@
+/* menu icon */
+span.mobile-menu-button {
+  position: fixed;
+  z-index: 4;
+  cursor: pointer;
+  top: 10px;
+}
+
+
+
+span.mobile-menu-button .menu-icon .navicon {
+  background: var(--white);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-in-out;
+  width: 25px;
+}
+
+span.mobile-menu-button .menu-icon .navicon:before,
+span.mobile-menu-button .menu-icon .navicon:after {
+  background: var(--white);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+span.mobile-menu-button .menu-icon .navicon:before {
+  top: 8px;
+}
+
+span.mobile-menu-button .menu-icon .navicon:after {
+  top: -8px;
+}
+
+/* menu btn */
+
+span.mobile-menu-button .menu-btn {
+  display: none;
+}
+
+span.mobile-menu-button .menu-btn:checked~.menu-icon .navicon {
+  background: transparent;
+}
+
+span.mobile-menu-button .menu-btn:checked~.menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+span.mobile-menu-button .menu-btn:checked~.menu-icon .navicon:after {
+  transform: rotate(-135deg);
+}
+
+span.mobile-menu-button .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+span.mobile-menu-button .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}

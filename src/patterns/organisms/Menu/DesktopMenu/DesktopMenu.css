@@ -1,0 +1,47 @@
+header.desktop-menu {
+  background-color: var(--dark-blue-3);
+  display: flex;
+  height: 64px;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header.desktop-menu nav {
+  display: flex;
+  width: 100%;
+}
+
+header.desktop-menu nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+header.desktop-menu nav li {
+  padding: 20px;
+  list-style: none;
+}
+
+header.desktop-menu nav li a {
+  color: var(--dark-blue-gray-3);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header.desktop-menu nav li a.active {
+  color: var(--light-blue-3);
+}
+
+header.desktop-menu nav li a:hover {
+  color: var(--light-blue-3);
+}

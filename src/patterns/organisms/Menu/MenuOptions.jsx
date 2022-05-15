@@ -1,0 +1,62 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+export const MenuOptions = ({ toggleMenu }) => (
+  <ul>
+    <li>
+      <NavLink
+        to="/"
+        activeClassName="active"
+        exact
+        onClick={toggleMenu}
+      >
+        HOME
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/skills"
+        activeClassName="active"
+        onClick={toggleMenu}
+      >
+        SKILLS
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/experience"
+        activeClassName="active"
+        onClick={toggleMenu}
+      >
+        EXPERIENCE
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/education"
+        activeClassName="active"
+        onClick={toggleMenu}
+      >
+        EDUCATION
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/portfolio"
+        activeClassName="active"
+        onClick={toggleMenu}
+      >
+        PORTFOLIO
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/blog"
+        activeClassName="active"
+        onClick={toggleMenu}
+      >
+        BLOG
+      </NavLink>
+    </li>
+  </ul>
+);
