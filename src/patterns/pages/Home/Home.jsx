@@ -2,7 +2,7 @@ import React from 'react';
 
 import felipeAvatar from '@assets/images/home/felipe_avatar.jpg';
 import facebookIcon from '@assets/icons/facebook-icon.svg';
-import linkedInIcon from '@assets/icons/linkedIn-icon.svg';
+import linkedInIcon from '@assets/icons/linkedin-icon.svg';
 import githubIcon from '@assets/icons/github-icon.svg';
 import { PageContainer } from '@patterns/organisms/PageContainer';
 import { CircleAvatar } from '@patterns/atoms/CircleAvatar/CircleAvatar.jsx';
