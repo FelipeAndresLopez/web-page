@@ -10,7 +10,7 @@ export const SingleCard = ({ src, alt, caption }) => (
       src={src}
       alt={alt}
     />
-    <p>{caption}</p>
+    <p className="single-card__caption">{caption}</p>
   </div>
 );
 

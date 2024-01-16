@@ -1,6 +1,6 @@
 import React from 'react';
 
-import felipeAvatar from '@assets/images/home/felipe_avatar.jpg';
+import felipeAvatar from '@assets/images/home/foto-felipe.jpeg';
 import facebookIcon from '@assets/icons/facebook-icon.svg';
 import linkedInIcon from '@assets/icons/linkedin-icon.svg';
 import githubIcon from '@assets/icons/github-icon.svg';
@@ -29,7 +29,7 @@ const Home = () => (
             <span className="marks">.</span>
           </PrimaryTitle>
           <h4 className="align-center">
-            Javascript developer
+            Web UI Developer
             <span className="marks"> &gt;&gt; </span>
             Frontend developer
             <span className="marks"> &gt;&gt; </span>

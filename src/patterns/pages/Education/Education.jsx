@@ -50,18 +50,17 @@ const Education = () => (
           </div>
 
           <div className="row">
-            {certifications.data.map((certification) => (
-              <div
-                key={certification.id}
-                className="col-lg-4 col-md-6 col-sm-6 col-xs-12"
-              >
-                <SingleCard
-                  src={certification.url}
-                  alt={certification.course}
-                  caption={certification.caption}
-                />
+            <div className="col-xs-12 center-xs">
+              <div className="row">
+                {certifications.data.map((certification) => (
+                  <SingleCard
+                    src={certification.url}
+                    alt={certification.course}
+                    caption={certification.caption}
+                  />
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

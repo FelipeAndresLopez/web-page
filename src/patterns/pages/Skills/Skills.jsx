@@ -15,7 +15,7 @@ const Skills = () => (
             </div>
           </div>
           <div className="row">
-            <div className="col-xs-12 center-xs col-md-6 col-md-offset-3">
+            <div className="col-xs-12 center-xs col-md-12">
               {skills.data.devSkills.map((skill) => (
                 <SkillCard key={skill.id} skillName={skill.name} />
               ))}

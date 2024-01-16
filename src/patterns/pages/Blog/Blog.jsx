@@ -4,7 +4,7 @@ import { Card } from '@patterns/molecules/Card/Card.jsx';
 import { CircleAvatar } from '@patterns/atoms/CircleAvatar/CircleAvatar.jsx';
 import { PrimaryTitle } from '@patterns/atoms/PrimaryTitle/PrimaryTitle.jsx';
 
-import philipPhoto from '@assets/images/blog/foto-felipe-2.jpg';
+import philipPhoto from '@assets/images/blog/foto-felipe.jpg';
 import rockMusic from '@assets/images/blog/rock-music.jpg';
 import philipOnBike from '@assets/images/blog/riding-on-bike.jpg';
 import hatosReservoir from '@assets/images/blog/hatos-reservoir.jpg';

@@ -1,0 +1,19 @@
+.dots-container {
+  text-align: center;
+  padding: 16px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #707070;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: var(--normal-blue);
+}

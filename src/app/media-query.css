@@ -51,7 +51,7 @@
   }
 
   .main-content {
-    margin-top: 72px;
+    padding: 5%;
   }
 
   .event-container .content {
@@ -97,11 +97,7 @@
     width: 100%;
   }
 
-  .react-tabs__tab {
-    font-size: 24px;
-  }
-
-  .slideshow-container {
+  .slideshow {
     max-width: 100%;
   }
 
@@ -126,7 +122,6 @@
 
   .card-photo {
     width: 100%;
-    height: auto;
   }
 
   .card-content h3 {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import NotFound from '@patterns/pages/NotFound/NotFound.jsx';
-import Slideshow from '@patterns/molecules/SlideShow/Slideshow';
+import { Slideshow } from '@patterns/molecules/SlideShow/Slideshow.jsx';
 import projects from '@api/projects.js';
 
 const ProjectDetails = () => {
@@ -21,6 +21,7 @@ const ProjectDetails = () => {
                 </Link>
                 <div className="col-xs-12 center-xs">
                   <h2>{projectData.name}</h2>
+                  <br />
                 </div>
               </div>
               <div className="row">

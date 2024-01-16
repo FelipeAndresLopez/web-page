@@ -37,38 +37,38 @@ const projects = [
     ],
     thumbnail: {
       image: philipsAdventure6,
-      alt: 'Video '
+      desc: 'Video '
     },
     images: [
       {
         id: '1',
         src: philipsAdventure1,
-        alt: 'Philip\'s Adventure - GUI'
+        desc: 'Philip\'s Adventure - GUI'
       },
       {
         id: '2',
         src: philipsAdventure2,
-        alt: 'Philip\'s Adventure - GUI'
+        desc: 'Philip\'s Adventure - GUI'
       },
       {
         id: '3',
         src: philipsAdventure3,
-        alt: 'Philip\'s Adventure - GUI'
+        desc: 'Philip\'s Adventure - GUI'
       },
       {
         id: '4',
         src: philipsAdventure4,
-        alt: 'Philip\'s Adventure - Missions'
+        desc: 'Philip\'s Adventure - Missions'
       },
       {
         id: '5',
         src: philipsAdventure5,
-        alt: 'Philip\'s Adventure - Missions'
+        desc: 'Philip\'s Adventure - Missions'
       },
       {
         id: '6',
         src: philipsAdventure6,
-        alt: 'Philip\'s Adventure - Missions'
+        desc: 'Philip\'s Adventure - Missions'
       }
     ]
   },
@@ -79,7 +79,7 @@ const projects = [
       'In association with Diego Mellizo and Eforcers we developed a file manager plug-in for GDA\'s HumHub social network.',
     thumbnail: {
       image: fileManager1,
-      alt: 'Preview Web plug-in for GDA'
+      desc: 'Preview Web plug-in for GDA'
     },
     specs: [
       {
@@ -99,12 +99,12 @@ const projects = [
       {
         id: '1',
         src: fileManager1,
-        alt: 'File Manager - GUI'
+        desc: 'File Manager - GUI'
       },
       {
         id: '2',
         src: fileManager2,
-        alt: 'File Manager - GUI'
+        desc: 'File Manager - GUI'
       }
     ]
   },
@@ -115,7 +115,7 @@ const projects = [
       'I contributed in development of a web application for visualizing Colombia\'s coverage and quality in terms of higher education.',
     thumbnail: {
       image: cocrealab1,
-      alt: 'Preview Web application'
+      desc: 'Preview Web application'
     },
     specs: [
       {
@@ -140,27 +140,27 @@ const projects = [
       {
         id: '1',
         src: cocrealab1,
-        alt: 'Stats'
+        desc: 'Stats'
       },
       {
         id: '2',
         src: cocrealab2,
-        alt: 'Programs - CRUD'
+        desc: 'Programs - CRUD'
       },
       {
         id: '3',
         src: cocrealab3,
-        alt: 'Stats'
+        desc: 'Stats'
       },
       {
         id: '4',
         src: cocrealab4,
-        alt: 'Coverage of higher education'
+        desc: 'Coverage of higher education'
       },
       {
         id: '5',
         src: cocrealab5,
-        alt: 'Admin panel'
+        desc: 'Admin panel'
       }
     ]
   }

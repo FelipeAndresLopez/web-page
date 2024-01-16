@@ -1,0 +1,32 @@
+/* Next & previous buttons */
+.slide-button {
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+  top: 50%;
+  cursor: pointer;
+  background-color: var(--dark-blue-4);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+.prev:before{
+  content: '⟨';
+}
+
+.next:before{
+  content: '⟩';
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slide-button {
+    font-size: 11px;
+  }
+}

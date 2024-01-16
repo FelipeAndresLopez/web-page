@@ -2,13 +2,21 @@
 
 .single-card__container {
   background-color: var(--dark-blue-4);
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 3% 2% 2% 2%;
+  margin: 10px;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .single-card__image {
+  height: 95%;
   width: 100%;
-  height: auto;
+  object-fit: cover;
+}
+
+.single-card__caption{
+  margin: 0;
 }
 
 button {

@@ -3,100 +3,85 @@
     "devSkills": [
       {
         "id": "1",
-        "name": "Html",
-        "percent": "80"
+        "name": "Html"
       },
       {
         "id": "2",
-        "name": "Js",
-        "percent": "70"
+        "name": "Js"
       },
       {
         "id": "3",
-        "name": "Css",
-        "percent": "70"
+        "name": "Css"
       },
       {
         "id": "4",
-        "name": "React js",
-        "percent": "70"
+        "name": "React js"
       },
       {
         "id": "5",
-        "name": "Mysql",
-        "percent": "70"
+        "name": "Mysql"
       },
       {
         "id": "6",
-        "name": "Redux",
-        "percent": "70"
+        "name": "Redux"
       },
       {
         "id": "7",
-        "name": "Git",
-        "percent": "60"
+        "name": "Git"
       },
       {
         "id": "8",
-        "name": "Scrum",
-        "percent": "80"
+        "name": "Scrum"
       },
       {
         "id": "9",
-        "name": "Google Apis",
-        "percent": "70"
+        "name": "Google Apis"
       },
       {
         "id": "10",
-        "name": "Flutter",
-        "percent": "20"
+        "name": "Flutter"
       },
       {
         "id": "11",
-        "name": "React Native",
-        "percent": "70"
+        "name": "React Native"
       },
       {
         "id": "12",
-        "name": "Java",
-        "percent": "70"
+        "name": "Java"
       },
       {
         "id": "13",
-        "name": "Dart",
-        "percent": "70"
+        "name": "Dart"
       }
     ],
     "softSkills": [
       {
         "id": "1",
-        "name": "Teamwork",
-        "percent": "80"
+        "name": "Teamwork"
       },
       {
         "id": "2",
-        "name": "Clear Thinker",
-        "percent": "80"
+        "name": "Flexible"
       },
       {
         "id": "3",
-        "name": "Commitment",
-        "percent": "100"
+        "name": "Committed"
       },
       {
         "id": "4",
-        "name": "Communication",
-        "percent": "80"
+        "name": "Focused"
       },
       {
         "id": "5",
-        "name": "Empathy",
-        "percent": "100"
+        "name": "Empathic"
       },
       {
         "id": "6",
-        "name": "Lifelong Learner",
-        "percent": "100"
+        "name": "Lifelong Learner"
+      },
+      {
+        "id": "7",
+        "name": "Flexible"
       }
     ]
   }
